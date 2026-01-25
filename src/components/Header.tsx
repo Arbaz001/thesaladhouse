@@ -8,6 +8,7 @@ const Header = () => {
   const navLinks = [
     { to: "/", label: "Home" },
     { to: "/brand-philosophy", label: "Brand Philosophy" },
+    { to: "/find-us", label: "Find Us" },
   ];
 
   return (
