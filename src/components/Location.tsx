@@ -9,15 +9,15 @@ const Location = () => {
             Find Us
           </h2>
           <p className="text-lg text-muted-foreground">
-            Visit us for a fresh and healthy dining experience
+            You are most welcome to visit us anytime and see our processes firsthand.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8 items-start">
-          {/* Map Embed - Using a placeholder location */}
+          {/* Map Embed - Element One Mall, Sector 49, Gurgaon */}
           <div className="rounded-xl overflow-hidden shadow-lg h-[400px] bg-muted">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5976697366!2d77.5945627!3d12.9715987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU4JzE3LjgiTiA3N8KwMzUnNDAuNCJF!5e0!3m2!1sen!2sin!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.5!2d77.0384!3d28.4089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d229e88fd54c5%3A0x86d0e45b6c39fc45!2sElement%20One%20Mall!5e0!3m2!1sen!2sin!4v1234567890"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -44,8 +44,8 @@ const Location = () => {
                     <h4 className="font-semibold text-foreground mb-1">Address</h4>
                     <p className="text-muted-foreground">
                       The Salad House<br />
-                      Your Street Address<br />
-                      City, State - PIN Code
+                      Shop No. 30, First Floor, Block B,<br />
+                      Element One Mall, Sector 49, Gurgaon
                     </p>
                   </div>
                 </div>
@@ -57,8 +57,8 @@ const Location = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Hours</h4>
                     <p className="text-muted-foreground">
-                      Monday - Sunday<br />
-                      11:00 AM - 10:00 PM
+                      Monday - Saturday<br />
+                      8:00 AM - 10:00 PM
                     </p>
                   </div>
                 </div>
@@ -69,9 +69,9 @@ const Location = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Phone</h4>
-                    <p className="text-muted-foreground">
-                      +91 XXXXX XXXXX
-                    </p>
+                    <a href="tel:+919910074734" className="text-muted-foreground hover:text-primary transition-colors">
+                      +91 9910074734
+                    </a>
                   </div>
                 </div>
               </div>
