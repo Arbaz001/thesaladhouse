@@ -20,6 +20,9 @@ import mexicanFalafelBowl from "@/assets/mexican-falafel-rice-bowl.jpg";
 import falafelHummusSaladBowl from "@/assets/falafel-hummus-salad-bowl.jpg";
 import paneerTikkaSaladBowl from "@/assets/roasted-chickpeas-paneer-tikka-salad-bowl.png";
 import mexicanNachosSaladBowl from "@/assets/mexican-nachos-salad-bowl.jpg";
+import freshFruitYogurtBowl from "@/assets/fresh-fruit-yogurt-bowl.jpeg";
+import chocolateYogurtBowl from "@/assets/chocolate-yogurt-bowl.jpeg";
+import mixedBerriesYogurtBowl from "@/assets/mixed-berries-yogurt-bowl.jpeg";
 import orangeJuice from "@/assets/orange-juice.jpeg";
 import bananaMilkshake from "@/assets/banana-milkshake.jpeg";
 import appleJuice from "@/assets/apple-juice.jpeg";
@@ -53,10 +56,24 @@ export const menuData: MenuCategory[] = [
     id: "yogurt-bowls",
     name: "Yogurt & Fruit Bowls",
     items: [
-      { name: "Fresh Fruit Bowl", price: 299 },
-      { name: "Chocolate Bowl", price: 329 },
-      { name: "Protein Bowl", price: 549 },
-      { name: "Yogurt Bowl", price: 299 },
+      { 
+        name: "Fresh Fruit Yogurt Bowl", 
+        description: "Creamy strawberry-flavoured hung curd topped with fresh seasonal fruits, chia, and roasted mixed seeds (420 Gms).",
+        price: 299, 
+        image: freshFruitYogurtBowl 
+      },
+      { 
+        name: "Hershey's Chocolate Yogurt Bowl", 
+        description: "Creamy chocolate-flavoured hung curd made with Hershey's chocolate, topped with fresh seasonal fruits, chia, and roasted mixed seeds (470 Gms).",
+        price: 329, 
+        image: chocolateYogurtBowl 
+      },
+      { 
+        name: "Mixed Berries Fresh Fruit Yogurt Bowl", 
+        description: "Creamy Mixed Berries-flavoured hung curd topped with fresh seasonal fruits, chia, and roasted mixed seeds (420 Gms).",
+        price: 319, 
+        image: mixedBerriesYogurtBowl 
+      },
     ],
   },
   {
