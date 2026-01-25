@@ -102,33 +102,14 @@ const BrandPhilosophy = () => {
               We have got nutrition profiling done for all our food to ensure every meal is balanced and healthy.
             </p>
             <div className="bg-secondary/20 rounded-xl p-8">
-              <h3 className="text-xl font-semibold text-foreground mb-6 text-center">Made In-House</h3>
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div className="flex items-center gap-3">
-                  <span className="text-primary">✓</span>
-                  <span className="text-muted-foreground">In-house hung curd</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-primary">✓</span>
-                  <span className="text-muted-foreground">In-house pickled veggies and onions</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-primary">✓</span>
-                  <span className="text-muted-foreground">In-house roasted chickpeas</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-primary">✓</span>
-                  <span className="text-muted-foreground">Candied spicy nuts</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-primary">✓</span>
-                  <span className="text-muted-foreground">In-house tomato paste</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-primary">✓</span>
-                  <span className="text-muted-foreground">In-house ginger garlic paste</span>
-                </div>
-              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-4 text-center">Prepared In-House</h3>
+              <p className="text-center text-muted-foreground mb-6">
+                From base ingredients to final touches, we make it ourselves.
+              </p>
+              <p className="text-center text-muted-foreground">
+                Hung curd • Pickled veggies & onions • Roasted chickpeas<br />
+                Candied spicy nuts • Tomato paste • Ginger–garlic paste
+              </p>
             </div>
           </div>
         </section>
