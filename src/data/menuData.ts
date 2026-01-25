@@ -12,16 +12,22 @@ export interface MenuCategory {
   items: MenuItem[];
 }
 
+import mexicanMushroomBowl from "@/assets/mexican-mushroom-rice-bowl.jpg";
+import mexicanPeriPeriBowl from "@/assets/mexican-peri-peri-potato-rice-bowl.jpg";
+import mexicanPaneerBowl from "@/assets/mexican-paneer-rice-bowl.jpg";
+import mexicanPattyBowl from "@/assets/mexican-patty-rice-bowl.jpg";
+import mexicanFalafelBowl from "@/assets/mexican-falafel-rice-bowl.jpg";
+
 export const menuData: MenuCategory[] = [
   {
     id: "rice-bowls",
     name: "Rice Bowls",
     items: [
-      { name: "Mexican Mushroom Rice Bowl", price: 399 },
-      { name: "Mexican Peri Peri Potato Rice Bowl", price: 329 },
-      { name: "Mexican Paneer Rice Bowl with Nachos", price: 280 },
-      { name: "Mexican Patty Rice Bowl with Nachos", price: 250 },
-      { name: "Mexican Falafel Rice Bowl with Nachos", price: 250 },
+      { name: "Mexican Mushroom Rice Bowl", price: 399, image: mexicanMushroomBowl },
+      { name: "Mexican Peri Peri Potato Rice Bowl", price: 329, image: mexicanPeriPeriBowl },
+      { name: "Mexican Paneer Rice Bowl with Nachos", price: 280, image: mexicanPaneerBowl },
+      { name: "Mexican Patty Rice Bowl with Nachos", price: 250, image: mexicanPattyBowl },
+      { name: "Mexican Falafel Rice Bowl with Nachos", price: 250, image: mexicanFalafelBowl },
     ],
   },
   {
