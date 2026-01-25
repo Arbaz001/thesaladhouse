@@ -20,6 +20,9 @@ import mexicanFalafelBowl from "@/assets/mexican-falafel-rice-bowl.jpg";
 import falafelHummusSaladBowl from "@/assets/falafel-hummus-salad-bowl.jpg";
 import paneerTikkaSaladBowl from "@/assets/roasted-chickpeas-paneer-tikka-salad-bowl.png";
 import mexicanNachosSaladBowl from "@/assets/mexican-nachos-salad-bowl.jpg";
+import orangeJuice from "@/assets/orange-juice.jpeg";
+import bananaMilkshake from "@/assets/banana-milkshake.jpeg";
+import appleJuice from "@/assets/apple-juice.jpeg";
 
 export const menuData: MenuCategory[] = [
   {
@@ -73,21 +76,26 @@ export const menuData: MenuCategory[] = [
     id: "beverages",
     name: "Beverages",
     items: [
-      { name: "Fresh Orange Juice", price: 149 },
-      { name: "Watermelon Juice", price: 129 },
-      { name: "Mixed Fruit Juice", price: 149 },
-      { name: "Mango Shake", price: 169 },
-      { name: "Strawberry Shake", price: 169 },
-      { name: "Chocolate Shake", price: 169 },
-      { name: "Cold Coffee", price: 149 },
-      { name: "Iced Tea", price: 99 },
-      { name: "Lemonade", price: 79 },
-      { name: "Soda", price: 40 },
-      { name: "Mojito", price: 129 },
-      { name: "Blue Lagoon", price: 149 },
-      { name: "Virgin Pina Colada", price: 169 },
-      { name: "Oreo Shake", price: 199 },
-      { name: "Brownie Shake", price: 249 },
+      { 
+        name: "Fresh Orange Juice (Zero added Sugar)", 
+        description: "Freshly squeezed Valencia oranges, made to order with zero added sugar. Just the natural sweetness and slight tang of oranges, as they are. (300 Ml)",
+        price: 249, 
+        image: orangeJuice 
+      },
+      { 
+        name: "Banana Milkshake (Zero added Sugar)", 
+        description: "Bananas blended with toned milk, a very small hint of vanilla essence, and a light dusting of cinnamon. Naturally sweet, thick, creamy, and super healthy — with absolutely no added sugar (300 Ml).",
+        price: 149, 
+        image: bananaMilkshake 
+      },
+      { 
+        name: "Apple Juice – Zero Added Sugar", 
+        description: "Freshly squeezed apple juice made on every order. Naturally sweet with zero added sugar. (300 Ml)",
+        price: 249, 
+        image: appleJuice 
+      },
+      { name: "Coke Zero", price: 40 },
+      { name: "Diet Coke", price: 40 },
     ],
   },
   {
