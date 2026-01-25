@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Leaf, Heart, Sparkles, Users } from "lucide-react";
+import { Leaf, Recycle, ShieldCheck, Heart, ChefHat } from "lucide-react";
 
 const BrandPhilosophy = () => {
   return (
@@ -18,76 +18,118 @@ const BrandPhilosophy = () => {
               Our Brand Philosophy
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              At The Salad House, we believe that healthy food should never compromise on taste. 
-              Every bowl we create is a celebration of fresh ingredients and bold flavors.
+              We're a 100% vegetarian kitchen serving fresh, gourmet salads, wraps, and wholesome meal bowls. 
+              We follow strict quality practices.
             </p>
           </div>
         </section>
 
-        {/* Values Section */}
+        {/* Quality Practices Section */}
         <section className="px-4 py-16">
           <div className="max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Quality Practices</h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="text-center p-6">
+              <div className="text-center p-6 bg-secondary/20 rounded-xl">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Heart className="h-8 w-8 text-primary" />
-                </div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">Made with Love</h3>
-                <p className="text-muted-foreground">
-                  Every dish is prepared with care and attention, ensuring you receive not just food, but an experience.
-                </p>
-              </div>
-              
-              <div className="text-center p-6">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Sparkles className="h-8 w-8 text-primary" />
+                  <Leaf className="h-8 w-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">Fresh Daily</h3>
                 <p className="text-muted-foreground">
-                  We source the freshest ingredients and prepare everything in-house, every single day.
+                  No reuse or storage of pre-cut vegetables. All ingredients are prepared fresh every day.
                 </p>
               </div>
               
-              <div className="text-center p-6">
+              <div className="text-center p-6 bg-secondary/20 rounded-xl">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="h-8 w-8 text-primary" />
+                  <Heart className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">Community First</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-3">Zero Waste</h3>
                 <p className="text-muted-foreground">
-                  We're more than a restaurant — we're a community of health-conscious food lovers.
+                  Any leftover food is responsibly donated to those in need.
+                </p>
+              </div>
+              
+              <div className="text-center p-6 bg-secondary/20 rounded-xl">
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <ShieldCheck className="h-8 w-8 text-primary" />
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-3">Hygiene First</h3>
+                <p className="text-muted-foreground">
+                  We are very confident in our hygiene standards. Please feel free to walk in anytime during the day.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Story Section */}
+        {/* Eco Friendly Section */}
         <section className="px-4 py-16 bg-secondary/20">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-foreground mb-6">Our Story</h2>
-            <p className="text-muted-foreground mb-4">
-              The Salad House was born from a simple idea: that eating healthy shouldn't mean sacrificing flavor or convenience. 
-              We set out to create a menu that proves salads and bowls can be exciting, satisfying, and absolutely delicious.
-            </p>
-            <p className="text-muted-foreground mb-4">
-              Our commitment to zero added sugar in our beverages, fresh-made dips, and handcrafted bowls 
-              reflects our dedication to your health without compromising on taste.
-            </p>
-            <p className="text-muted-foreground">
-              Every item on our menu is thoughtfully designed to nourish your body and delight your taste buds.
-            </p>
+          <div className="max-w-4xl mx-auto">
+            <div className="flex items-center justify-center gap-3 mb-8">
+              <Recycle className="h-8 w-8 text-primary" />
+              <h2 className="text-3xl font-bold text-foreground">Eco Friendly</h2>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6 text-center">
+              <div className="p-6 bg-background rounded-xl shadow-sm">
+                <p className="text-muted-foreground">
+                  <span className="font-semibold text-foreground block mb-2">Clean Energy</span>
+                  Responsibly contributing our used cooking oil towards the production of clean, renewable biodiesel.
+                </p>
+              </div>
+              <div className="p-6 bg-background rounded-xl shadow-sm">
+                <p className="text-muted-foreground">
+                  <span className="font-semibold text-foreground block mb-2">Eco Packaging</span>
+                  All our packaging is eco-friendly and sustainable.
+                </p>
+              </div>
+              <div className="p-6 bg-background rounded-xl shadow-sm">
+                <p className="text-muted-foreground">
+                  <span className="font-semibold text-foreground block mb-2">Waste Segregation</span>
+                  Proper garbage segregation of dry and wet waste.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
-        {/* Promise Section */}
+        {/* Responsible Food Section */}
         <section className="px-4 py-16">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-foreground mb-6">Our Promise</h2>
-            <div className="space-y-4 text-muted-foreground">
-              <p>✓ Fresh ingredients, sourced responsibly</p>
-              <p>✓ No artificial preservatives or additives</p>
-              <p>✓ Zero added sugar in our juices and milkshakes</p>
-              <p>✓ Made fresh to order, every single time</p>
+          <div className="max-w-4xl mx-auto">
+            <div className="flex items-center justify-center gap-3 mb-8">
+              <ChefHat className="h-8 w-8 text-primary" />
+              <h2 className="text-3xl font-bold text-foreground">Responsible Food</h2>
+            </div>
+            <p className="text-center text-muted-foreground mb-8">
+              We have got nutrition profiling done for all our food to ensure every meal is balanced and healthy.
+            </p>
+            <div className="bg-secondary/20 rounded-xl p-8">
+              <h3 className="text-xl font-semibold text-foreground mb-6 text-center">Made In-House</h3>
+              <div className="grid sm:grid-cols-2 gap-4">
+                <div className="flex items-center gap-3">
+                  <span className="text-primary">✓</span>
+                  <span className="text-muted-foreground">In-house hung curd</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-primary">✓</span>
+                  <span className="text-muted-foreground">In-house pickled veggies and onions</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-primary">✓</span>
+                  <span className="text-muted-foreground">In-house roasted chickpeas</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-primary">✓</span>
+                  <span className="text-muted-foreground">Candied spicy nuts</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-primary">✓</span>
+                  <span className="text-muted-foreground">In-house tomato paste</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-primary">✓</span>
+                  <span className="text-muted-foreground">In-house ginger garlic paste</span>
+                </div>
+              </div>
             </div>
           </div>
         </section>
