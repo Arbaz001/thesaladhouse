@@ -19,8 +19,7 @@ const BrandPhilosophy = () => {
             </h1>
             <div className="w-24 h-px bg-amber-400 mx-auto mb-6" />
             <p className="text-lg text-amber-800/80 max-w-2xl mx-auto leading-relaxed font-light">
-              We're a 100% vegetarian kitchen serving fresh, gourmet salads, wraps, and wholesome meal bowls. 
-              We follow strict quality practices rooted in care and tradition.
+              We're a 100% vegetarian kitchen. We follow strict quality practices.
             </p>
           </div>
         </section>
