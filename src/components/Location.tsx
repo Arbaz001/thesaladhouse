@@ -42,11 +42,19 @@ const Location = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Address</h4>
-                    <p className="text-muted-foreground">
+                    <p className="text-muted-foreground mb-2">
                       The Salad House<br />
                       Shop No. 30, First Floor, Block B,<br />
                       Element One Mall, Sector 49, Gurgaon
                     </p>
+                    <a 
+                      href="https://maps.app.goo.gl/zcTqdhNBCDMFdQec6" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-primary hover:text-primary/80 transition-colors text-sm font-medium inline-flex items-center gap-1"
+                    >
+                      📍 Location on Google Maps
+                    </a>
                   </div>
                 </div>
 
