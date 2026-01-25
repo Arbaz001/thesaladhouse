@@ -1,63 +1,64 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Leaf, Recycle, ShieldCheck, Heart, ChefHat, Sparkles } from "lucide-react";
+import { Leaf, Recycle, ShieldCheck, Heart, ChefHat } from "lucide-react";
 
 const BrandPhilosophy = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-50 to-yellow-50">
+    <div className="min-h-screen bg-amber-50/30">
       <Header />
       
       <main className="pt-24 pb-20">
         {/* Hero Section */}
-        <section className="px-4 py-16">
+        <section className="px-4 py-20 bg-gradient-to-b from-amber-100/50 to-transparent">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white text-sm font-medium">
-              <Sparkles className="h-4 w-4" />
-              <span>100% Veg & Vibe Check ✓</span>
+            <div className="inline-block mb-6">
+              <Leaf className="h-12 w-12 text-amber-700 mx-auto" strokeWidth={1.5} />
             </div>
-            <h1 className="text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 mb-6">
+            <h1 className="text-4xl md:text-6xl font-serif font-light text-amber-900 mb-6 tracking-tight">
               Our Brand Philosophy
             </h1>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-              We're a <span className="font-bold text-purple-600">100% vegetarian kitchen</span> serving fresh, gourmet salads, wraps, and wholesome meal bowls. 
-              No cap, we follow strict quality practices 💯
+            <div className="w-24 h-px bg-amber-400 mx-auto mb-6" />
+            <p className="text-lg text-amber-800/80 max-w-2xl mx-auto leading-relaxed font-light">
+              We're a 100% vegetarian kitchen serving fresh, gourmet salads, wraps, and wholesome meal bowls. 
+              We follow strict quality practices rooted in care and tradition.
             </p>
           </div>
         </section>
 
         {/* Quality Practices Section */}
-        <section className="px-4 py-16">
+        <section className="px-4 py-20">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-4xl font-black text-center mb-4 text-gray-800">Quality Hits Different 🔥</h2>
-            <p className="text-center text-gray-500 mb-12">fr fr, we don't play with your food</p>
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="group p-8 bg-white/70 backdrop-blur-sm rounded-3xl border-2 border-transparent hover:border-purple-400 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-purple-200">
-                <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-emerald-500 rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-12 transition-transform">
-                  <Leaf className="h-8 w-8 text-white" />
+            <h2 className="text-3xl font-serif font-light text-amber-900 mb-2 text-center">Quality Practices</h2>
+            <p className="text-center text-amber-700/70 mb-16 italic">The foundation of everything we do</p>
+            
+            <div className="grid md:grid-cols-3 gap-12">
+              <div className="text-center group">
+                <div className="w-20 h-20 border-2 border-amber-300 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-100 transition-colors duration-500">
+                  <Leaf className="h-9 w-9 text-amber-700" strokeWidth={1.5} />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-3">Fresh Daily 🥬</h3>
-                <p className="text-gray-600">
-                  No reuse or storage of pre-cut vegetables. All ingredients are prepared fresh every day. Period.
+                <h3 className="text-xl font-serif text-amber-900 mb-3">Fresh Daily</h3>
+                <p className="text-amber-800/70 leading-relaxed">
+                  No reuse or storage of pre-cut vegetables. All ingredients are prepared fresh every day.
                 </p>
               </div>
               
-              <div className="group p-8 bg-white/70 backdrop-blur-sm rounded-3xl border-2 border-transparent hover:border-pink-400 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-pink-200">
-                <div className="w-16 h-16 bg-gradient-to-br from-pink-400 to-rose-500 rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-12 transition-transform">
-                  <Heart className="h-8 w-8 text-white" />
+              <div className="text-center group">
+                <div className="w-20 h-20 border-2 border-amber-300 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-100 transition-colors duration-500">
+                  <Heart className="h-9 w-9 text-amber-700" strokeWidth={1.5} />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-3">Zero Waste 💕</h3>
-                <p className="text-gray-600">
-                  Any leftover food is responsibly donated. We're all about that sustainable life.
+                <h3 className="text-xl font-serif text-amber-900 mb-3">Zero Waste</h3>
+                <p className="text-amber-800/70 leading-relaxed">
+                  Any leftover food is responsibly donated to those in need.
                 </p>
               </div>
               
-              <div className="group p-8 bg-white/70 backdrop-blur-sm rounded-3xl border-2 border-transparent hover:border-blue-400 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-blue-200">
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-indigo-500 rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-12 transition-transform">
-                  <ShieldCheck className="h-8 w-8 text-white" />
+              <div className="text-center group">
+                <div className="w-20 h-20 border-2 border-amber-300 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-100 transition-colors duration-500">
+                  <ShieldCheck className="h-9 w-9 text-amber-700" strokeWidth={1.5} />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-3">Hygiene First ✨</h3>
-                <p className="text-gray-600">
-                  We're very confident in our hygiene standards. Pull up anytime during the day, we're ready.
+                <h3 className="text-xl font-serif text-amber-900 mb-3">Hygiene First</h3>
+                <p className="text-amber-800/70 leading-relaxed">
+                  We are confident in our hygiene standards. Feel free to visit us anytime.
                 </p>
               </div>
             </div>
@@ -65,62 +66,52 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* Eco Friendly Section */}
-        <section className="px-4 py-16">
+        <section className="px-4 py-20 bg-stone-100/50">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 rounded-[2rem] p-1">
-              <div className="bg-white rounded-[1.8rem] p-10">
-                <div className="flex items-center justify-center gap-3 mb-8">
-                  <div className="p-3 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-xl">
-                    <Recycle className="h-8 w-8 text-white" />
-                  </div>
-                  <h2 className="text-4xl font-black text-gray-800">Eco Friendly 🌍</h2>
-                </div>
-                <div className="grid md:grid-cols-3 gap-6">
-                  <div className="text-center p-6 bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl">
-                    <span className="text-4xl mb-4 block">⚡</span>
-                    <h4 className="font-bold text-gray-800 mb-2">Clean Energy</h4>
-                    <p className="text-gray-600 text-sm">
-                      Contributing our used cooking oil towards renewable biodiesel production.
-                    </p>
-                  </div>
-                  <div className="text-center p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl">
-                    <span className="text-4xl mb-4 block">📦</span>
-                    <h4 className="font-bold text-gray-800 mb-2">Eco Packaging</h4>
-                    <p className="text-gray-600 text-sm">
-                      All our packaging is eco-friendly and sustainable. We care.
-                    </p>
-                  </div>
-                  <div className="text-center p-6 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl">
-                    <span className="text-4xl mb-4 block">♻️</span>
-                    <h4 className="font-bold text-gray-800 mb-2">Waste Segregation</h4>
-                    <p className="text-gray-600 text-sm">
-                      Proper dry and wet waste segregation. It's giving responsibility.
-                    </p>
-                  </div>
-                </div>
+            <div className="flex items-center justify-center gap-4 mb-16">
+              <div className="h-px w-12 bg-amber-400" />
+              <Recycle className="h-8 w-8 text-amber-700" strokeWidth={1.5} />
+              <h2 className="text-3xl font-serif font-light text-amber-900">Eco Friendly</h2>
+              <div className="h-px w-12 bg-amber-400" />
+            </div>
+            
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white p-8 rounded-sm shadow-sm border border-amber-100 hover:shadow-md transition-shadow duration-300">
+                <h4 className="font-serif text-lg text-amber-900 mb-3">Clean Energy</h4>
+                <p className="text-amber-800/70 text-sm leading-relaxed">
+                  Responsibly contributing our used cooking oil towards the production of clean, renewable biodiesel.
+                </p>
+              </div>
+              <div className="bg-white p-8 rounded-sm shadow-sm border border-amber-100 hover:shadow-md transition-shadow duration-300">
+                <h4 className="font-serif text-lg text-amber-900 mb-3">Eco Packaging</h4>
+                <p className="text-amber-800/70 text-sm leading-relaxed">
+                  All our packaging is eco-friendly and sustainable, because every choice matters.
+                </p>
+              </div>
+              <div className="bg-white p-8 rounded-sm shadow-sm border border-amber-100 hover:shadow-md transition-shadow duration-300">
+                <h4 className="font-serif text-lg text-amber-900 mb-3">Waste Segregation</h4>
+                <p className="text-amber-800/70 text-sm leading-relaxed">
+                  Proper garbage segregation of dry and wet waste at our kitchen.
+                </p>
               </div>
             </div>
           </div>
         </section>
 
         {/* Responsible Food Section */}
-        <section className="px-4 py-16">
+        <section className="px-4 py-20">
           <div className="max-w-4xl mx-auto">
-            <div className="flex items-center justify-center gap-3 mb-4">
-              <div className="p-3 bg-gradient-to-br from-orange-400 to-amber-500 rounded-xl">
-                <ChefHat className="h-8 w-8 text-white" />
-              </div>
-              <h2 className="text-4xl font-black text-gray-800">Responsible Food 🍳</h2>
+            <div className="flex items-center justify-center gap-4 mb-6">
+              <ChefHat className="h-8 w-8 text-amber-700" strokeWidth={1.5} />
+              <h2 className="text-3xl font-serif font-light text-amber-900">Responsible Food</h2>
             </div>
-            <p className="text-center text-gray-500 mb-10">
-              Nutrition profiling done for all our food. We know what's up.
+            <p className="text-center text-amber-800/70 mb-16 max-w-xl mx-auto">
+              We have nutrition profiling done for all our food to ensure every meal is balanced and nourishing.
             </p>
             
-            <div className="bg-gradient-to-br from-orange-100 via-amber-50 to-yellow-100 rounded-3xl p-8">
-              <h3 className="text-2xl font-bold text-center mb-8 text-gray-800">
-                Made In-House <span className="text-orange-500">✌️</span>
-              </h3>
-              <div className="grid sm:grid-cols-2 gap-4">
+            <div className="border border-amber-200 rounded-sm p-10 bg-white">
+              <h3 className="text-xl font-serif text-amber-900 mb-8 text-center">Crafted In-House</h3>
+              <div className="grid sm:grid-cols-2 gap-x-12 gap-y-4 max-w-2xl mx-auto">
                 {[
                   "In-house hung curd",
                   "In-house pickled veggies and onions",
@@ -131,33 +122,13 @@ const BrandPhilosophy = () => {
                 ].map((item, index) => (
                   <div 
                     key={index} 
-                    className="flex items-center gap-3 p-4 bg-white/80 backdrop-blur-sm rounded-xl hover:scale-102 transition-transform"
+                    className="flex items-center gap-4 py-3 border-b border-amber-100 last:border-0"
                   >
-                    <span className="w-8 h-8 bg-gradient-to-br from-green-400 to-emerald-500 rounded-full flex items-center justify-center text-white text-sm font-bold">
-                      ✓
-                    </span>
-                    <span className="text-gray-700 font-medium">{item}</span>
+                    <span className="text-amber-500">—</span>
+                    <span className="text-amber-800/80">{item}</span>
                   </div>
                 ))}
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* CTA Section */}
-        <section className="px-4 py-16">
-          <div className="max-w-2xl mx-auto text-center">
-            <div className="bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 rounded-3xl p-10 text-white">
-              <h2 className="text-3xl font-black mb-4">Come Vibe With Us 🤙</h2>
-              <p className="text-white/90 mb-6">
-                Fresh food, good vibes, zero judgment. Just salads that slap.
-              </p>
-              <a 
-                href="/#menu" 
-                className="inline-block px-8 py-4 bg-white text-purple-600 font-bold rounded-full hover:scale-105 transition-transform shadow-lg"
-              >
-                Check Our Menu →
-              </a>
             </div>
           </div>
         </section>
