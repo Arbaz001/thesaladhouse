@@ -18,7 +18,7 @@ const BrandPhilosophy = () => {
               Our Brand Philosophy
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We're a 100% vegetarian kitchen. We follow strict quality practices.
+              We're a 100% vegetarian kitchen.
             </p>
           </div>
         </section>
