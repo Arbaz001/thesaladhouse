@@ -41,7 +41,7 @@ const Location = () => {
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-1">Address</h4>
+                    <h4 className="font-semibold text-foreground mb-1">You are most welcome to visit us anytime and see our processes firsthand :</h4>
                     <p className="text-muted-foreground mb-2">
                       The Salad House<br />
                       Shop No. 30, First Floor, Block B,<br />
