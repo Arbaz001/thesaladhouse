@@ -18,6 +18,7 @@ const MenuSection = ({ category }: MenuSectionProps) => {
             name={item.name}
             description={item.description}
             price={item.price}
+            image={item.image}
           />
         ))}
       </div>
