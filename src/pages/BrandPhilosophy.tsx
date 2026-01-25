@@ -32,9 +32,9 @@ const BrandPhilosophy = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Leaf className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">Fresh Daily</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-3">Fresh, Every Day</h3>
                 <p className="text-muted-foreground">
-                  No reuse or storage of pre-cut vegetables. All ingredients are prepared fresh every day.
+                  No reuse or storage of pre-cut vegetables. All ingredients are freshly prepared daily.
                 </p>
               </div>
               
@@ -42,9 +42,9 @@ const BrandPhilosophy = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Heart className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">Zero Waste</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-3">Zero-Waste Commitment</h3>
                 <p className="text-muted-foreground">
-                  Any leftover food is responsibly donated to those in need.
+                  Any surplus food is responsibly donated to Devdoot Food Bank.
                 </p>
               </div>
               
@@ -52,9 +52,9 @@ const BrandPhilosophy = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <ShieldCheck className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">Hygiene First</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-3">Hygiene, Always</h3>
                 <p className="text-muted-foreground">
-                  We are very confident in our hygiene standards. Please feel free to walk in anytime during the day.
+                  We maintain uncompromising hygiene standards. Feel free to walk in anytime — our kitchen is always open to view.
                 </p>
               </div>
             </div>
