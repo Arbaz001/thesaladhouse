@@ -1,35 +1,55 @@
 
 
-# Update Rice Bowls Menu
+# Update Beverages Category
 
-## Changes Overview
-
-Replace the current Rice Bowls items with the 5 new bowls you specified:
-
-| Item Name | Price |
-|-----------|-------|
-| Mexican Mushroom Rice Bowl | ₹399 |
-| Mexican Peri Peri Potato Rice Bowl | ₹329 |
-| Mexican Paneer Rice Bowl with Nachos | ₹280 |
-| Mexican Patty Rice Bowl with Nachos | ₹250 |
-| Mexican Falafel Rice Bowl with Nachos | ₹250 |
+## Overview
+Replace the current 15 beverages with 5 new items, including images and descriptions for the fresh juices/milkshake.
 
 ## Implementation Steps
 
-### Step 1: Update Menu Data
-Modify `src/data/menuData.ts` to replace the existing Rice Bowls items with the 5 new items and their prices.
+### Step 1: Add Uploaded Images to Project
+Save the 3 uploaded images to the assets folder:
+- `src/assets/orange-juice.jpeg`
+- `src/assets/banana-milkshake.jpeg`
+- `src/assets/apple-juice.jpeg`
 
-### Step 2: Add Image Support to Menu Items
-Update the data structure in `menuData.ts` to include an optional `image` field for each item.
+### Step 2: Update Menu Data
+Modify `src/data/menuData.ts`:
 
-### Step 3: Update MenuItem Component
-Modify `src/components/MenuItem.tsx` to display images when available, showing the bowl image alongside the name and price in an attractive card layout.
+1. Add new image imports at the top of the file
+2. Replace the entire beverages category items array with:
 
-### Step 4: Add Images (After You Upload)
-Once you upload the bowl images in the chat, I will add them to the project and link each image to its corresponding menu item.
+```typescript
+{
+  id: "beverages",
+  name: "Beverages",
+  items: [
+    { 
+      name: "Fresh Orange Juice (Zero added Sugar)", 
+      description: "Freshly squeezed Valencia oranges, made to order with zero added sugar. Just the natural sweetness and slight tang of oranges, as they are. (300 Ml)",
+      price: 249, 
+      image: orangeJuice 
+    },
+    { 
+      name: "Banana Milkshake (Zero added Sugar)", 
+      description: "Bananas blended with toned milk, a very small hint of vanilla essence, and a light dusting of cinnamon. Naturally sweet, thick, creamy, and super healthy — with absolutely no added sugar (300 Ml).",
+      price: 149, 
+      image: bananaMilkshake 
+    },
+    { 
+      name: "Apple Juice – Zero Added Sugar", 
+      description: "Freshly squeezed apple juice made on every order. Naturally sweet with zero added sugar. (300 Ml)",
+      price: 249, 
+      image: appleJuice 
+    },
+    { name: "Coke Zero", price: 40 },
+    { name: "Diet Coke", price: 40 },
+  ],
+}
+```
 
-## Notes
-- The current 7 items in Rice Bowls will be removed and replaced with your 5 new items
-- Images will be optional, so items without images will still display correctly
-- The card design will be enhanced to showcase food images attractively
+## Result
+- Beverages category will show 5 items instead of the current 15
+- Fresh Orange Juice, Banana Milkshake, and Apple Juice will display with images and descriptions
+- Coke Zero and Diet Coke will display as simple items without images
 
