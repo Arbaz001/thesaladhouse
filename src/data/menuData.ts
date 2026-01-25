@@ -17,6 +17,9 @@ import mexicanPeriPeriBowl from "@/assets/mexican-peri-peri-potato-rice-bowl.jpg
 import mexicanPaneerBowl from "@/assets/mexican-paneer-rice-bowl.jpg";
 import mexicanPattyBowl from "@/assets/mexican-patty-rice-bowl.jpg";
 import mexicanFalafelBowl from "@/assets/mexican-falafel-rice-bowl.jpg";
+import falafelHummusSaladBowl from "@/assets/falafel-hummus-salad-bowl.jpg";
+import paneerTikkaSaladBowl from "@/assets/roasted-chickpeas-paneer-tikka-salad-bowl.png";
+import mexicanNachosSaladBowl from "@/assets/mexican-nachos-salad-bowl.jpg";
 
 export const menuData: MenuCategory[] = [
   {
@@ -34,9 +37,9 @@ export const menuData: MenuCategory[] = [
     id: "salad-bowls",
     name: "Salad Bowls",
     items: [
-      { name: "Falafel Salad Bowl", price: 329 },
-      { name: "Paneer Tikka Salad Bowl", price: 329 },
-      { name: "Nachos Salad Bowl", price: 329 },
+      { name: "Falafel Hummus Salad Bowl", price: 329, image: falafelHummusSaladBowl },
+      { name: "Roasted Chickpeas & Paneer Tikka Salad Bowl", price: 329, image: paneerTikkaSaladBowl },
+      { name: "Mexican Nachos Salad Bowl", price: 329, image: mexicanNachosSaladBowl },
     ],
   },
   {
