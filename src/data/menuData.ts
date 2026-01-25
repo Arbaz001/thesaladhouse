@@ -23,6 +23,10 @@ import mexicanNachosSaladBowl from "@/assets/mexican-nachos-salad-bowl.jpg";
 import orangeJuice from "@/assets/orange-juice.jpeg";
 import bananaMilkshake from "@/assets/banana-milkshake.jpeg";
 import appleJuice from "@/assets/apple-juice.jpeg";
+import mexicanSalsa from "@/assets/mexican-salsa.jpeg";
+import tzatziki from "@/assets/tzatziki.jpeg";
+import sourCream from "@/assets/sour-cream.jpeg";
+import guacamole from "@/assets/guacamole.jpeg";
 
 export const menuData: MenuCategory[] = [
   {
@@ -102,12 +106,30 @@ export const menuData: MenuCategory[] = [
     id: "dips",
     name: "Dips & Extras",
     items: [
-      { name: "Guacamole", price: 129 },
-      { name: "Salsa", price: 99 },
-      { name: "Sour Cream", price: 99 },
-      { name: "Tzatziki", price: 99 },
-      { name: "Corn Salsa", price: 99 },
-      { name: "Hummus", price: 129 },
+      { 
+        name: "Mexican Salsa", 
+        description: "Fresh and zesty Mexican Salsa made with charred tomatoes, juicy onions, fresh coriander, and more — perfectly balanced with tang, spice, and a hint of heat. Net weight - 280Gms.",
+        price: 99, 
+        image: mexicanSalsa 
+      },
+      { 
+        name: "Tzatziki", 
+        description: "A refreshing dip made with hung curd, blended with grated cucumber, dill leaves, and a dash of lime juice. Finished with a drizzle of olive oil for a smooth, creamy texture and balanced flavour (280 Gms).",
+        price: 199, 
+        image: tzatziki 
+      },
+      { 
+        name: "Sour Cream", 
+        description: "Smooth, tangy, and creamy — our in-house sour cream is made with heavy cream and lemon for the perfect balance of richness and zest (280 Gms).",
+        price: 449, 
+        image: sourCream 
+      },
+      { 
+        name: "Guacamole", 
+        description: "Creamy, chunky and irresistibly fresh! Made with ripe avocados, zesty lemon juice, fresh tomatoes, onions, coriander and a hint of pepper & salt—this guacamole delivers the perfect balance of richness and tang. Blended in small batches with premium olive oil for a smooth dip. Perfect for nachos, salads, burritos, sandwiches or as a healthy spread (280 Gms).",
+        price: 599, 
+        image: guacamole 
+      },
     ],
   },
 ];
