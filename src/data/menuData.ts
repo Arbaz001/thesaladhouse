@@ -3,6 +3,7 @@ export interface MenuItem {
   description?: string;
   price: number;
   variant?: string;
+  image?: string;
 }
 
 export interface MenuCategory {
@@ -16,13 +17,11 @@ export const menuData: MenuCategory[] = [
     id: "rice-bowls",
     name: "Rice Bowls",
     items: [
-      { name: "Mexican Salad Bowl (Veg)", price: 299 },
-      { name: "Mexican Salad Bowl (Non-Veg)", price: 349 },
-      { name: "Mexican Rice Bowl (Veg)", price: 250 },
-      { name: "Mexican Rice Bowl (Non-Veg)", price: 300 },
-      { name: "Mexican Rice Bowl (Paneer)", price: 300 },
-      { name: "Loaded Nachos Bowl (Veg)", price: 349 },
-      { name: "Loaded Nachos Bowl (Non-Veg)", price: 399 },
+      { name: "Mexican Mushroom Rice Bowl", price: 399 },
+      { name: "Mexican Peri Peri Potato Rice Bowl", price: 329 },
+      { name: "Mexican Paneer Rice Bowl with Nachos", price: 280 },
+      { name: "Mexican Patty Rice Bowl with Nachos", price: 250 },
+      { name: "Mexican Falafel Rice Bowl with Nachos", price: 250 },
     ],
   },
   {
