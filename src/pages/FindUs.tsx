@@ -1,17 +1,17 @@
 import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Menu from "@/components/Menu";
 import Footer from "@/components/Footer";
+import Location from "@/components/Location";
 
-const Index = () => {
+const FindUs = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <Hero />
-      <Menu />
+      <main className="pt-20">
+        <Location />
+      </main>
       <Footer />
     </div>
   );
 };
 
-export default Index;
+export default FindUs;
