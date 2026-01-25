@@ -108,12 +108,6 @@ export const menuData: MenuCategory[] = [
       { name: "Tzatziki", price: 99 },
       { name: "Corn Salsa", price: 99 },
       { name: "Hummus", price: 129 },
-      { name: "Cheese Dip", price: 129 },
-      { name: "Jalapeno Dip", price: 99 },
-      { name: "Guacamole (Large)", price: 299 },
-      { name: "Hummus (Large)", price: 299 },
-      { name: "Salsa (Large)", price: 199 },
-      { name: "Party Pack (All Dips)", price: 599 },
     ],
   },
 ];
