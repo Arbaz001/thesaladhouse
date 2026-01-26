@@ -76,9 +76,12 @@ const Location = () => {
                     <Phone className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-1">Phone</h4>
-                    <a href="tel:+919910074734" className="text-muted-foreground hover:text-primary transition-colors">
+                    <h4 className="font-semibold text-foreground mb-1">Contact</h4>
+                    <a href="tel:+919910074734" className="text-muted-foreground hover:text-primary transition-colors block">
                       +91 9910074734
+                    </a>
+                    <a href="mailto:divya@thesaladhouse.co" className="text-muted-foreground hover:text-primary transition-colors block">
+                      divya@thesaladhouse.co
                     </a>
                   </div>
                 </div>
