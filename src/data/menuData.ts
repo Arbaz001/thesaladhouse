@@ -48,7 +48,12 @@ export const menuData: MenuCategory[] = [
         price: 329, 
         image: paneerTikkaSaladBowl 
       },
-      { name: "Mexican Nachos Salad Bowl", price: 329, image: mexicanNachosSaladBowl },
+      { 
+        name: "Mexican Nachos Salad Bowl", 
+        description: "Mexican patties on fresh greens with creamy avocado, fresh veggies, crunchy nachos, in-house pico de gallo, sour cream, and topped with mixed seeds. (470 Gms).",
+        price: 329, 
+        image: mexicanNachosSaladBowl 
+      },
     ],
   },
   {
