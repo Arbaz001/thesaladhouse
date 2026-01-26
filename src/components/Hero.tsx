@@ -30,7 +30,7 @@ const Hero = () => {
         
         
         <p className="text-base text-foreground mb-12 max-w-xl mx-auto">
-          Fresh Preparation
+          Serving salads, meal bowls, wraps, yogurt bowls & juices— made fresh, every day.
         </p>
 
         <Button onClick={scrollToMenu} size="lg" className="rounded-full px-8 py-6 text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300">
