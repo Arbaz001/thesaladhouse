@@ -8,7 +8,7 @@ const Menu = () => {
             Our Menu
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Explore our range of healthy and delicious options, prepared fresh daily
+            Always Freshly Prepared
           </p>
         </div>
 
