@@ -58,7 +58,7 @@ const BrandPhilosophy = () => {
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">Our Kitchen? Come See It</h3>
                 <p className="text-muted-foreground">
-                  Seriously — walk in anytime and take a look. We keep our kitchen open because we have nothing to hide. Hygiene isn't a checkbox for us, it's how we work.
+                  Seriously — walk in anytime and take a look. Hygiene isn't a checkbox for us, it's how we work.
                 </p>
               </div>
             </div>
