@@ -110,13 +110,7 @@ const BrandPhilosophy = () => {
               <Sparkles className="h-8 w-8 text-primary" />
               <h2 className="text-3xl font-bold text-foreground">Food That Feels Good</h2>
             </div>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-secondary/20 rounded-xl p-8">
-                <h3 className="text-xl font-semibold text-foreground mb-4 text-center">We Actually Think About Nutrition</h3>
-                <p className="text-center text-muted-foreground">
-                  Every item on our menu has been nutrition profiled. We're not just throwing ingredients together — we want your meal to genuinely nourish you.
-                </p>
-              </div>
+            <div className="max-w-xl mx-auto">
               <div className="bg-secondary/20 rounded-xl p-8">
                 <h3 className="text-xl font-semibold text-foreground mb-4 text-center">No Heavy, Greasy Aftermath</h3>
                 <p className="text-center text-muted-foreground">
