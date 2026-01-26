@@ -35,7 +35,7 @@ const BrandPhilosophy = () => {
                   <Leaf className="h-8 w-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-primary">We Start Fresh Every Morning</h3>
-                <p className="text-muted-foreground">
+                <p className="text-foreground">
                   No pre-cut veggies sitting overnight. Our team arrives early each day to prepare everything from scratch.
                 </p>
               </div>
@@ -45,7 +45,7 @@ const BrandPhilosophy = () => {
                   <Heart className="h-8 w-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-primary">What's Left Gets Donated</h3>
-                <p className="text-muted-foreground">
+                <p className="text-foreground">
                   If we don't sell it today, we don't serve it tomorrow. Instead, any leftover food goes to Devdoot Food Bank.
                 </p>
               </div>
@@ -54,8 +54,8 @@ const BrandPhilosophy = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <ShieldCheck className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">Our Kitchen? Come See It</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-xl font-semibold text-primary mb-3">Our Kitchen? Come See It</h3>
+                <p className="text-foreground">
                   Seriously — walk in anytime and take a look. Hygiene isn't a checkbox for us, it's how we work.
                 </p>
               </div>
@@ -71,24 +71,24 @@ const BrandPhilosophy = () => {
               <h2 className="text-3xl font-bold text-primary">Real Hands, Real Food</h2>
             </div>
             <div className="bg-background rounded-xl p-8 shadow-sm">
-              <p className="text-center text-muted-foreground mb-6 text-lg">
+              <p className="text-center text-foreground mb-6 text-lg">
                 Everything here is made by people, not machines. And honestly? That's exactly how we want it.
               </p>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div className="p-4">
-                  <p className="text-muted-foreground">
+                  <p className="text-foreground">
                     <span className="font-semibold text-foreground block mb-2">Patties Look Different?</span>
                     That's because someone actually shaped them by hand — not a factory press.
                   </p>
                 </div>
                 <div className="p-4">
-                  <p className="text-muted-foreground">
+                  <p className="text-foreground">
                     <span className="font-semibold text-foreground block mb-2">Beetroot Colour Varies?</span>
                     Seasonal produce does that. We don't add anything artificial to "fix" the shade.
                   </p>
                 </div>
                 <div className="p-4">
-                  <p className="text-muted-foreground">
+                  <p className="text-foreground">
                     <span className="font-semibold text-foreground block mb-2">Taste Slightly Different?</span>
                     Real ingredients aren't standardized — but we always aim for that same delicious result.
                   </p>
@@ -110,14 +110,14 @@ const BrandPhilosophy = () => {
             </div>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-secondary/20 rounded-xl p-8">
-                <h3 className="text-xl font-semibold text-foreground mb-4 text-center">Plant-Powered Protein</h3>
-                <p className="text-center text-muted-foreground">
+                <h3 className="text-xl font-semibold text-primary mb-4 text-center">Plant-Powered Protein</h3>
+                <p className="text-center text-foreground">
                   As a 100% vegetarian kitchen, we thoughtfully build protein into our meals using ingredients like paneer, roasted chickpeas, and yogurt bowls — so your food feels balanced, filling, and satisfying.
                 </p>
               </div>
               <div className="bg-secondary/20 rounded-xl p-8">
-                <h3 className="text-xl font-semibold text-foreground mb-4 text-center">No Heavy, Greasy Aftermath</h3>
-                <p className="text-center text-muted-foreground">
+                <h3 className="text-xl font-semibold text-primary mb-4 text-center">No Heavy, Greasy Aftermath</h3>
+                <p className="text-center text-foreground">
                   You know that sluggish feeling after some meals? We design our food to be light and clean — so you feel energized, not weighed down.
                 </p>
               </div>
@@ -132,7 +132,7 @@ const BrandPhilosophy = () => {
               <ChefHat className="h-8 w-8 text-primary" />
               <h2 className="text-3xl font-bold text-primary">We Make It Ourselves</h2>
             </div>
-            <p className="text-center text-muted-foreground mb-8 text-lg">
+            <p className="text-center text-foreground mb-8 text-lg">
               We avoid using pre-made pastes and purées — even from well-known, internationally acclaimed brands — because we're not comfortable with products that have long shelf lives. Wherever possible, we prefer making things in-house, and we make a conscious effort to use Indian spices as much as we can. Here's what we prepare in-house:
             </p>
             <div className="bg-background rounded-xl p-8 shadow-sm">
@@ -152,24 +152,24 @@ const BrandPhilosophy = () => {
               <Recycle className="h-8 w-8 text-primary" />
               <h2 className="text-3xl font-bold text-primary">Being Responsible Beyond Food</h2>
             </div>
-            <p className="text-center text-muted-foreground mb-8">
+            <p className="text-center text-foreground mb-8">
               We're trying to run a kitchen that's kinder to the planet too. It's not perfect, but here's what we're doing:
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div className="p-6 bg-secondary/20 rounded-xl">
-                <p className="text-muted-foreground">
+                <p className="text-foreground">
                   <span className="font-semibold text-foreground block mb-2">Our Used Oil → Biodiesel</span>
                   We send our used cooking oil for biodiesel production instead of just discarding it.
                 </p>
               </div>
               <div className="p-6 bg-secondary/20 rounded-xl">
-                <p className="text-muted-foreground">
+                <p className="text-foreground">
                   <span className="font-semibold text-foreground block mb-2">Eco-Friendly Packaging</span>
                   All our packaging is sustainable — because your meal shouldn't cost the earth (literally).
                 </p>
               </div>
               <div className="p-6 bg-secondary/20 rounded-xl">
-                <p className="text-muted-foreground">
+                <p className="text-foreground">
                   <span className="font-semibold text-foreground block mb-2">Proper Waste Segregation</span>
                   Dry waste, wet waste — we sort it all at source. Small habit, meaningful impact.
                 </p>
@@ -185,7 +185,7 @@ const BrandPhilosophy = () => {
             <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4">
               Our Promise to You
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-lg text-foreground leading-relaxed">
               Every morning, we start fresh. Every evening, what's left gets donated.
             </p>
           </div>
