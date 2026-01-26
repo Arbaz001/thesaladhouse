@@ -48,7 +48,7 @@ const BrandPhilosophy = () => {
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">What's Left Gets Donated</h3>
                 <p className="text-muted-foreground">
-                  If we don't sell it today, we don't serve it tomorrow. Instead, any leftover food goes to Devdoot Food Bank. It's a small way we try to do some good while staying true to our freshness promise.
+                  If we don't sell it today, we don't serve it tomorrow. Instead, any leftover food goes to Devdoot Food Bank.
                 </p>
               </div>
               
