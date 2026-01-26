@@ -135,7 +135,7 @@ const BrandPhilosophy = () => {
               <h2 className="text-3xl font-bold text-foreground">We Make It Ourselves</h2>
             </div>
             <p className="text-center text-muted-foreground mb-8 text-lg">
-              Why buy pre-made when we can make it better? From base ingredients to final touches — here's what we prepare in-house:
+              We avoid using pre-made pastes and purées — even from well-known, internationally acclaimed brands — because we're not comfortable with products that have long shelf lives. Wherever possible, we prefer making things in-house, and we make a conscious effort to use Indian spices as much as we can. Here's what we prepare in-house:
             </p>
             <div className="bg-background rounded-xl p-8 shadow-sm">
               <div className="flex flex-wrap justify-center gap-3">
