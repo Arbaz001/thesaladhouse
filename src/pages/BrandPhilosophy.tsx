@@ -38,7 +38,7 @@ const BrandPhilosophy = () => {
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">We Start Fresh Every Morning</h3>
                 <p className="text-muted-foreground">
-                  No pre-cut veggies sitting overnight. No shortcuts. Our team arrives early each day to prepare everything from scratch.
+                  No pre-cut veggies sitting overnight. Our team arrives early each day to prepare everything from scratch.
                 </p>
               </div>
               
