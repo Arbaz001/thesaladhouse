@@ -42,7 +42,12 @@ export const menuData: MenuCategory[] = [
         price: 329, 
         image: falafelHummusSaladBowl 
       },
-      { name: "Roasted Chickpeas & Paneer Tikka Salad Bowl", price: 329, image: paneerTikkaSaladBowl },
+      { 
+        name: "Roasted Chickpeas & Paneer Tikka Salad Bowl", 
+        description: "Smoky paneer tikka and crispy roasted chickpeas with fresh veggies, refreshing in-house tzatziki, LCM dressing, and topped with candied spicy nuts (480 Gms).",
+        price: 329, 
+        image: paneerTikkaSaladBowl 
+      },
       { name: "Mexican Nachos Salad Bowl", price: 329, image: mexicanNachosSaladBowl },
     ],
   },
