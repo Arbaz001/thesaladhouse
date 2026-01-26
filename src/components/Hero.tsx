@@ -28,9 +28,6 @@ const Hero = () => {
           The Salad House
         </h1>
         
-        <p className="text-xl md:text-2xl text-foreground mb-8 font-light">
-          Fresh, Healthy & Delicious
-        </p>
         
         <p className="text-base text-muted-foreground mb-12 max-w-xl mx-auto">
           Handcrafted salads, meal bowls, wraps, yogurt bowls, and refreshing beverages — made fresh, every day
