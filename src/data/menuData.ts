@@ -36,7 +36,12 @@ export const menuData: MenuCategory[] = [
     id: "salad-bowls",
     name: "Salad Bowls",
     items: [
-      { name: "Falafel Hummus Salad Bowl", price: 329, image: falafelHummusSaladBowl },
+      { 
+        name: "Falafel Hummus Salad Bowl", 
+        description: "Crispy herbed falafel with fresh veggies, freshly made beetroot hummus, and Valencia orange chilli dressing, topped with candied spicy nuts (425 Gms).",
+        price: 329, 
+        image: falafelHummusSaladBowl 
+      },
       { name: "Roasted Chickpeas & Paneer Tikka Salad Bowl", price: 329, image: paneerTikkaSaladBowl },
       { name: "Mexican Nachos Salad Bowl", price: 329, image: mexicanNachosSaladBowl },
     ],
