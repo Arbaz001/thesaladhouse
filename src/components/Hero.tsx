@@ -22,7 +22,7 @@ const Hero = () => {
         </p>
         
         <p className="text-base text-muted-foreground mb-12 max-w-xl mx-auto">
-          Discover our handcrafted bowls, wraps, and refreshing beverages made with the freshest ingredients
+          Handcrafted salads, meal bowls, wraps, yogurt bowls, and refreshing beverages — made fresh, every day
         </p>
 
         <Button
