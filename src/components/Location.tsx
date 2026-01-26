@@ -77,12 +77,11 @@ const Location = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Contact</h4>
-                    <a href="tel:+919910074734" className="text-muted-foreground hover:text-primary transition-colors block">
-                      +91 9910074734
-                    </a>
-                    <a href="mailto:divya@thesaladhouse.co" className="text-muted-foreground hover:text-primary transition-colors block">
-                      divya@thesaladhouse.co
-                    </a>
+                    <p className="text-muted-foreground">
+                      <a href="tel:+919910074734" className="hover:text-primary transition-colors">+91 9910074734</a>
+                      {" | "}
+                      <a href="mailto:divya@thesaladhouse.co" className="hover:text-primary transition-colors">divya@thesaladhouse.co</a>
+                    </p>
                   </div>
                 </div>
               </div>
