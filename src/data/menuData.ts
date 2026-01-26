@@ -60,11 +60,36 @@ export const menuData: MenuCategory[] = [
     id: "rice-bowls",
     name: "Rice Bowls",
     items: [
-      { name: "Mexican Mushroom Rice Bowl", price: 399, image: mexicanMushroomBowl },
-      { name: "Mexican Peri Peri Potato Rice Bowl", price: 329, image: mexicanPeriPeriBowl },
-      { name: "Mexican Paneer Rice Bowl with Nachos", price: 280, image: mexicanPaneerBowl },
-      { name: "Mexican Patty Rice Bowl with Nachos", price: 250, image: mexicanPattyBowl },
-      { name: "Mexican Falafel Rice Bowl with Nachos", price: 250, image: mexicanFalafelBowl },
+      { 
+        name: "Mexican Mushroom Rice Bowl", 
+        description: "Mushroom popcorn with fresh greens, fajita veggies, black bean gravy, corn salsa, pico de gallo, pickled vegetables, and a dollop of fresh hung curd — all made in-house. No extra dips or dressings. (491 Gms).",
+        price: 399, 
+        image: mexicanMushroomBowl 
+      },
+      { 
+        name: "Mexican Peri Peri Potato Rice Bowl", 
+        description: "Peri Peri potato with fresh greens, fajita veggies, black bean gravy, corn salsa, pico de gallo, pickled vegetables, and a dollop of fresh hung curd — all made in-house. (491 Gms).",
+        price: 329, 
+        image: mexicanPeriPeriBowl 
+      },
+      { 
+        name: "Mexican Paneer Rice Bowl with Nachos", 
+        description: "Mexican paneer with fresh greens, fajita veggies, black bean gravy, corn salsa, pico de gallo, pickled vegetables, and a dollop of fresh hung curd — all made in-house, with the crunch of flavoured nachos. No extra dips or dressings (520 Gms).",
+        price: 280, 
+        image: mexicanPaneerBowl 
+      },
+      { 
+        name: "Mexican Patty Rice Bowl with Nachos", 
+        description: "Mexican patties with fresh greens, fajita veggies, black bean gravy, corn salsa, pico de gallo, pickled vegetables, and a dollop of fresh hung curd — all made in-house, with the crunch of flavoured nachos. No extra dips or dressings (521 gms).",
+        price: 250, 
+        image: mexicanPattyBowl 
+      },
+      { 
+        name: "Mexican Falafel Rice Bowl with Nachos", 
+        description: "Herbed falafel with fresh greens, fajita veggies, black bean gravy, corn salsa, pico de gallo, pickled vegetables, and a dollop of fresh hung curd — all made in-house, with the crunch of flavoured nachos. (522 Gms).",
+        price: 250, 
+        image: mexicanFalafelBowl 
+      },
     ],
   },
   {
