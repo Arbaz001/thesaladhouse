@@ -18,7 +18,7 @@ const BrandPhilosophy = () => {
               What We Believe In
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              We're a 100% vegetarian kitchen that prepares fresh food daily. That's at the heart of everything we do.
+              We're a 100% vegetarian kitchen, preparing fresh food every day — it's the heart of everything we do.
             </p>
           </div>
         </section>
