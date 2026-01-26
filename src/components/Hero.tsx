@@ -1,6 +1,6 @@
 import { ChevronDown, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/the-salad-house-front.jpg";
+import heroImage from "@/assets/the-salad-house-front-edited.jpg";
 
 const Hero = () => {
   const scrollToMenu = () => {
