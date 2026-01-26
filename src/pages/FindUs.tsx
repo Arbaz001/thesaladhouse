@@ -6,7 +6,7 @@ const FindUs = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <main className="pt-20">
+      <main className="pt-20 pb-16">
         <Location />
       </main>
       <Footer />

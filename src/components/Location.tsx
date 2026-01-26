@@ -1,12 +1,12 @@
 import { MapPin, Clock, Phone } from "lucide-react";
 const Location = () => {
-  return <section id="location" className="py-20 px-4 bg-secondary/30">
+  return <section id="location" className="py-12 px-4 bg-secondary/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">
             Find Us
           </h2>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             You are most welcome to visit us anytime and see our processes firsthand.
           </p>
         </div>
