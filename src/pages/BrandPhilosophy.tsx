@@ -1,15 +1,13 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Leaf, Recycle, ShieldCheck, Heart, ChefHat, Sparkles, Hand, Clock } from "lucide-react";
-
 const BrandPhilosophy = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       <Header />
       
-      <main className="pt-20 pb-12">
+      <main className="pt-24 pb-20">
         {/* Hero Section */}
-        <section className="px-4 py-10 bg-gradient-to-b from-secondary/30 to-background">
+        <section className="px-4 py-16 bg-gradient-to-b from-secondary/30 to-background">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <Leaf className="h-10 w-10 text-primary" />
@@ -25,7 +23,7 @@ const BrandPhilosophy = () => {
 
 
         {/* Quality Practices Section */}
-        <section className="px-4 py-10">
+        <section className="px-4 py-16">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold text-foreground mb-4 text-center">How We Do Things</h2>
             <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
@@ -36,7 +34,7 @@ const BrandPhilosophy = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Leaf className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">We Start Fresh Every Morning</h3>
+                <h3 className="text-xl font-semibold mb-3 text-primary">We Start Fresh Every Morning</h3>
                 <p className="text-muted-foreground">
                   No pre-cut veggies sitting overnight. Our team arrives early each day to prepare everything from scratch.
                 </p>
@@ -46,7 +44,7 @@ const BrandPhilosophy = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Heart className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">What's Left Gets Donated</h3>
+                <h3 className="text-xl font-semibold mb-3 text-primary">What's Left Gets Donated</h3>
                 <p className="text-muted-foreground">
                   If we don't sell it today, we don't serve it tomorrow. Instead, any leftover food goes to Devdoot Food Bank.
                 </p>
@@ -66,7 +64,7 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* Human-Made Philosophy Section */}
-        <section className="px-4 py-10 bg-secondary/20">
+        <section className="px-4 py-16 bg-secondary/20">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center justify-center gap-3 mb-8">
               <Hand className="h-8 w-8 text-primary" />
@@ -104,7 +102,7 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* Responsible Food Section */}
-        <section className="px-4 py-10">
+        <section className="px-4 py-16">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center justify-center gap-3 mb-8">
               <Sparkles className="h-8 w-8 text-primary" />
@@ -128,7 +126,7 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* In-House Preparation Section */}
-        <section className="px-4 py-10 bg-secondary/20">
+        <section className="px-4 py-16 bg-secondary/20">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center justify-center gap-3 mb-8">
               <ChefHat className="h-8 w-8 text-primary" />
@@ -139,30 +137,16 @@ const BrandPhilosophy = () => {
             </p>
             <div className="bg-background rounded-xl p-8 shadow-sm">
               <div className="flex flex-wrap justify-center gap-3">
-                {[
-                  "Hung Curd",
-                  "Pickled Veggies",
-                  "Pickled Onions",
-                  "Pickled Jalapeños",
-                  "Roasted Chickpeas",
-                  "Candied Spicy Nuts",
-                  "Tomato Paste",
-                  "Ginger–Garlic Paste"
-                ].map((item) => (
-                  <span
-                    key={item}
-                    className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium"
-                  >
+                {["Hung Curd", "Pickled Veggies", "Pickled Onions", "Pickled Jalapeños", "Roasted Chickpeas", "Candied Spicy Nuts", "Tomato Paste", "Ginger–Garlic Paste"].map(item => <span key={item} className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
                     {item}
-                  </span>
-                ))}
+                  </span>)}
               </div>
             </div>
           </div>
         </section>
 
         {/* Eco Friendly Section */}
-        <section className="px-4 py-10">
+        <section className="px-4 py-16">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center justify-center gap-3 mb-8">
               <Recycle className="h-8 w-8 text-primary" />
@@ -195,7 +179,7 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* Closing Promise */}
-        <section className="px-4 py-10 bg-primary/5">
+        <section className="px-4 py-16 bg-primary/5">
           <div className="max-w-3xl mx-auto text-center">
             <Clock className="h-12 w-12 text-primary mx-auto mb-6" />
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
@@ -209,8 +193,6 @@ const BrandPhilosophy = () => {
       </main>
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default BrandPhilosophy;
