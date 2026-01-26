@@ -40,6 +40,12 @@ const Footer = () => {
           </a>
         </div>
         
+        <p className="text-background/70 text-sm mb-2">
+          <a href="tel:+919910074734" className="hover:text-background transition-colors">+91 9910074734</a>
+          {" | "}
+          <a href="mailto:divya@thesaladhouse.co" className="hover:text-background transition-colors">divya@thesaladhouse.co</a>
+        </p>
+        
         <p className="text-background/70 text-sm">
           © {new Date().getFullYear()} The Salad House. All rights reserved.
         </p>
