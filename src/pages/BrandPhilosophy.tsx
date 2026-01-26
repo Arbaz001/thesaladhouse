@@ -202,7 +202,7 @@ const BrandPhilosophy = () => {
               Our Promise to You
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Every morning, we start fresh. Every evening, what's left gets donated. There's no secret formula here — just honest food, made with care, by real people who genuinely love what they do. That's our promise. Simple as that.
+              Every morning, we start fresh. Every evening, what's left gets donated.
             </p>
           </div>
         </section>
