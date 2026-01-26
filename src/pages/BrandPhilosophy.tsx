@@ -143,6 +143,7 @@ const BrandPhilosophy = () => {
                   "Hung Curd",
                   "Pickled Veggies",
                   "Pickled Onions",
+                  "Pickled Jalapeños",
                   "Roasted Chickpeas",
                   "Candied Spicy Nuts",
                   "Tomato Paste",
