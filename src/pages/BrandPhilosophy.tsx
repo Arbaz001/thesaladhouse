@@ -7,9 +7,9 @@ const BrandPhilosophy = () => {
     <div className="min-h-screen">
       <Header />
       
-      <main className="pt-24 pb-20">
+      <main className="pt-20 pb-12">
         {/* Hero Section */}
-        <section className="px-4 py-16 bg-gradient-to-b from-secondary/30 to-background">
+        <section className="px-4 py-10 bg-gradient-to-b from-secondary/30 to-background">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <Leaf className="h-10 w-10 text-primary" />
@@ -25,7 +25,7 @@ const BrandPhilosophy = () => {
 
 
         {/* Quality Practices Section */}
-        <section className="px-4 py-16">
+        <section className="px-4 py-10">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold text-foreground mb-4 text-center">How We Do Things</h2>
             <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
@@ -66,7 +66,7 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* Human-Made Philosophy Section */}
-        <section className="px-4 py-16 bg-secondary/20">
+        <section className="px-4 py-10 bg-secondary/20">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center justify-center gap-3 mb-8">
               <Hand className="h-8 w-8 text-primary" />
@@ -104,7 +104,7 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* Responsible Food Section */}
-        <section className="px-4 py-16">
+        <section className="px-4 py-10">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center justify-center gap-3 mb-8">
               <Sparkles className="h-8 w-8 text-primary" />
@@ -128,7 +128,7 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* In-House Preparation Section */}
-        <section className="px-4 py-16 bg-secondary/20">
+        <section className="px-4 py-10 bg-secondary/20">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center justify-center gap-3 mb-8">
               <ChefHat className="h-8 w-8 text-primary" />
@@ -162,7 +162,7 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* Eco Friendly Section */}
-        <section className="px-4 py-16">
+        <section className="px-4 py-10">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center justify-center gap-3 mb-8">
               <Recycle className="h-8 w-8 text-primary" />
@@ -195,7 +195,7 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* Closing Promise */}
-        <section className="px-4 py-16 bg-primary/5">
+        <section className="px-4 py-10 bg-primary/5">
           <div className="max-w-3xl mx-auto text-center">
             <Clock className="h-12 w-12 text-primary mx-auto mb-6" />
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
