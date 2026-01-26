@@ -110,7 +110,13 @@ const BrandPhilosophy = () => {
               <Sparkles className="h-8 w-8 text-primary" />
               <h2 className="text-3xl font-bold text-foreground">Food That Feels Good</h2>
             </div>
-            <div className="max-w-xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-secondary/20 rounded-xl p-8">
+                <h3 className="text-xl font-semibold text-foreground mb-4 text-center">Plant-Powered Protein</h3>
+                <p className="text-center text-muted-foreground">
+                  As a 100% vegetarian kitchen, we thoughtfully build protein into our meals using ingredients like paneer, roasted chickpeas, and yogurt bowls — so your food feels balanced, filling, and satisfying.
+                </p>
+              </div>
               <div className="bg-secondary/20 rounded-xl p-8">
                 <h3 className="text-xl font-semibold text-foreground mb-4 text-center">No Heavy, Greasy Aftermath</h3>
                 <p className="text-center text-muted-foreground">
