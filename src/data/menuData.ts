@@ -33,6 +33,15 @@ import guacamole from "@/assets/guacamole.jpeg";
 
 export const menuData: MenuCategory[] = [
   {
+    id: "salad-bowls",
+    name: "Salad Bowls",
+    items: [
+      { name: "Falafel Hummus Salad Bowl", price: 329, image: falafelHummusSaladBowl },
+      { name: "Roasted Chickpeas & Paneer Tikka Salad Bowl", price: 329, image: paneerTikkaSaladBowl },
+      { name: "Mexican Nachos Salad Bowl", price: 329, image: mexicanNachosSaladBowl },
+    ],
+  },
+  {
     id: "rice-bowls",
     name: "Rice Bowls",
     items: [
@@ -41,15 +50,6 @@ export const menuData: MenuCategory[] = [
       { name: "Mexican Paneer Rice Bowl with Nachos", price: 280, image: mexicanPaneerBowl },
       { name: "Mexican Patty Rice Bowl with Nachos", price: 250, image: mexicanPattyBowl },
       { name: "Mexican Falafel Rice Bowl with Nachos", price: 250, image: mexicanFalafelBowl },
-    ],
-  },
-  {
-    id: "salad-bowls",
-    name: "Salad Bowls",
-    items: [
-      { name: "Falafel Hummus Salad Bowl", price: 329, image: falafelHummusSaladBowl },
-      { name: "Roasted Chickpeas & Paneer Tikka Salad Bowl", price: 329, image: paneerTikkaSaladBowl },
-      { name: "Mexican Nachos Salad Bowl", price: 329, image: mexicanNachosSaladBowl },
     ],
   },
   {
