@@ -13,11 +13,10 @@ const Hero = () => {
     <section className="min-h-screen flex flex-col items-center justify-center relative px-4">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-[2px]"
         style={{ backgroundImage: `url(${heroImage})` }}
-      >
-        <div className="absolute inset-0 bg-background/70" />
-      </div>
+      />
+      <div className="absolute inset-0 bg-background/75" />
       
       <div className="text-center max-w-3xl mx-auto relative z-10">
         <div className="flex items-center justify-center gap-2 mb-6">
