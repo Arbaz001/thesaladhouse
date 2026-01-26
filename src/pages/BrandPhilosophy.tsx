@@ -23,14 +23,6 @@ const BrandPhilosophy = () => {
           </div>
         </section>
 
-        {/* Core Promise */}
-        <section className="px-4 py-12 bg-primary/5 border-y border-primary/10">
-          <div className="max-w-4xl mx-auto text-center">
-            <p className="text-lg md:text-xl font-medium text-foreground italic">
-              "Fresh food, made daily, with nothing to hide — think of us as your modern-day thela, just with better seating."
-            </p>
-          </div>
-        </section>
 
         {/* Quality Practices Section */}
         <section className="px-4 py-16">
