@@ -5,17 +5,17 @@ const BrandPhilosophy = () => {
   return <div className="min-h-screen">
       <Header />
       
-      <main className="pt-24 pb-20">
+      <main className="pt-20 pb-16">
         {/* Hero Section */}
-        <section className="px-4 py-16 bg-gradient-to-b from-secondary/30 to-background">
-          <div className="max-w-4xl mx-auto text-center">
+        <section className="px-4 py-12 bg-gradient-to-b from-secondary/30 to-background">
+          <div className="max-w-6xl mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-6">
               <Leaf className="h-10 w-10 text-primary" />
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
               What We Believe In
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               We're a 100% vegetarian kitchen, preparing fresh and nutritious food every day — it's the heart of everything we do.
             </p>
           </div>
@@ -23,10 +23,10 @@ const BrandPhilosophy = () => {
 
 
         {/* Quality Practices Section */}
-        <section className="px-4 py-16">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl font-bold text-primary mb-4 text-center">How We Do Things</h2>
-            <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
+        <section className="px-4 py-12">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 text-center">How We Do Things</h2>
+            <p className="text-center text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
               These aren't marketing promises — they're how we actually run our kitchen, every single day.
             </p>
             <div className="grid md:grid-cols-3 gap-8">
@@ -64,16 +64,16 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* Human-Made Philosophy Section */}
-        <section className="px-4 py-16 bg-secondary/20">
-          <div className="max-w-4xl mx-auto">
-            <div className="flex items-center justify-center gap-3 mb-8">
-              <Hand className="h-8 w-8 text-primary" />
-              <h2 className="text-3xl font-bold text-primary">Real Hands, Real Food</h2>
+        <section className="px-4 py-12 bg-secondary/20">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <Hand className="h-10 w-10 text-primary" />
+              <h2 className="text-4xl md:text-5xl font-bold text-primary">Real Hands, Real Food</h2>
             </div>
+            <p className="text-center text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
+              Everything here is made by people, not machines. And honestly? That's exactly how we want it.
+            </p>
             <div className="bg-background rounded-xl p-8 shadow-sm">
-              <p className="text-center text-foreground mb-6 text-lg">
-                Everything here is made by people, not machines. And honestly? That's exactly how we want it.
-              </p>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div className="p-4">
                   <p className="text-foreground">
@@ -102,11 +102,11 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* Responsible Food Section */}
-        <section className="px-4 py-16">
-          <div className="max-w-4xl mx-auto">
-            <div className="flex items-center justify-center gap-3 mb-8">
-              <Sparkles className="h-8 w-8 text-primary" />
-              <h2 className="text-3xl font-bold text-primary">Food That Feels Good</h2>
+        <section className="px-4 py-12">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex items-center justify-center gap-3 mb-12">
+              <Sparkles className="h-10 w-10 text-primary" />
+              <h2 className="text-4xl md:text-5xl font-bold text-primary">Food That Feels Good</h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-secondary/20 rounded-xl p-8">
@@ -126,13 +126,13 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* In-House Preparation Section */}
-        <section className="px-4 py-16 bg-secondary/20">
-          <div className="max-w-4xl mx-auto">
-            <div className="flex items-center justify-center gap-3 mb-8">
-              <ChefHat className="h-8 w-8 text-primary" />
-              <h2 className="text-3xl font-bold text-primary">We Make It Ourselves</h2>
+        <section className="px-4 py-12 bg-secondary/20">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <ChefHat className="h-10 w-10 text-primary" />
+              <h2 className="text-4xl md:text-5xl font-bold text-primary">We Make It Ourselves</h2>
             </div>
-            <p className="text-center text-foreground mb-8 text-lg">
+            <p className="text-center text-lg text-muted-foreground mb-12 max-w-3xl mx-auto">
               We avoid using pre-made pastes and purées — even from well-known, internationally acclaimed brands — because we're not comfortable with products that have long shelf lives. Wherever possible, we prefer making things in-house, and we make a conscious effort to use Indian spices as much as we can. Here's what we prepare in-house:
             </p>
             <div className="bg-background rounded-xl p-8 shadow-sm">
@@ -146,13 +146,13 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* Eco Friendly Section */}
-        <section className="px-4 py-16">
-          <div className="max-w-4xl mx-auto">
-            <div className="flex items-center justify-center gap-3 mb-8">
-              <Recycle className="h-8 w-8 text-primary" />
-              <h2 className="text-3xl font-bold text-primary">Being Responsible Beyond Food</h2>
+        <section className="px-4 py-12">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <Recycle className="h-10 w-10 text-primary" />
+              <h2 className="text-4xl md:text-5xl font-bold text-primary">Being Responsible Beyond Food</h2>
             </div>
-            <p className="text-center text-foreground mb-8">
+            <p className="text-center text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
               We're trying to run a kitchen that's kinder to the planet too. It's not perfect, but here's what we're doing:
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
@@ -179,13 +179,13 @@ const BrandPhilosophy = () => {
         </section>
 
         {/* Closing Promise */}
-        <section className="px-4 py-16 bg-primary/5">
-          <div className="max-w-3xl mx-auto text-center">
-            <Clock className="h-12 w-12 text-primary mx-auto mb-6" />
-            <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4">
+        <section className="px-4 py-12 bg-primary/5">
+          <div className="max-w-6xl mx-auto text-center">
+            <Clock className="h-10 w-10 text-primary mx-auto mb-4" />
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
               Our Promise to You
             </h2>
-            <p className="text-lg text-foreground leading-relaxed">
+            <p className="text-lg text-muted-foreground">
               Every morning, we start fresh. Every evening, what's left gets donated.
             </p>
           </div>
