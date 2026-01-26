@@ -77,19 +77,19 @@ const BrandPhilosophy = () => {
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div className="p-4">
                   <p className="text-foreground">
-                    <span className="font-semibold text-foreground block mb-2">Patties Look Different?</span>
+                    <span className="font-semibold text-primary block mb-2">Patties Look Different?</span>
                     That's because someone actually shaped them by hand — not a factory press.
                   </p>
                 </div>
                 <div className="p-4">
                   <p className="text-foreground">
-                    <span className="font-semibold text-foreground block mb-2">Beetroot Colour Varies?</span>
+                    <span className="font-semibold text-primary block mb-2">Beetroot Colour Varies?</span>
                     Seasonal produce does that. We don't add anything artificial to "fix" the shade.
                   </p>
                 </div>
                 <div className="p-4">
                   <p className="text-foreground">
-                    <span className="font-semibold text-foreground block mb-2">Taste Slightly Different?</span>
+                    <span className="font-semibold text-primary block mb-2">Taste Slightly Different?</span>
                     Real ingredients aren't standardized — but we always aim for that same delicious result.
                   </p>
                 </div>
@@ -158,19 +158,19 @@ const BrandPhilosophy = () => {
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div className="p-6 bg-secondary/20 rounded-xl">
                 <p className="text-foreground">
-                  <span className="font-semibold text-foreground block mb-2">Our Used Oil → Biodiesel</span>
+                  <span className="font-semibold text-primary block mb-2">Our Used Oil → Biodiesel</span>
                   We send our used cooking oil for biodiesel production instead of just discarding it.
                 </p>
               </div>
               <div className="p-6 bg-secondary/20 rounded-xl">
                 <p className="text-foreground">
-                  <span className="font-semibold text-foreground block mb-2">Eco-Friendly Packaging</span>
+                  <span className="font-semibold text-primary block mb-2">Eco-Friendly Packaging</span>
                   All our packaging is sustainable — because your meal shouldn't cost the earth (literally).
                 </p>
               </div>
               <div className="p-6 bg-secondary/20 rounded-xl">
                 <p className="text-foreground">
-                  <span className="font-semibold text-foreground block mb-2">Proper Waste Segregation</span>
+                  <span className="font-semibold text-primary block mb-2">Proper Waste Segregation</span>
                   Dry waste, wet waste — we sort it all at source. Small habit, meaningful impact.
                 </p>
               </div>
