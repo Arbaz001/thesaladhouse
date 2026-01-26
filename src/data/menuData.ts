@@ -120,10 +120,16 @@ export const menuData: MenuCategory[] = [
     id: "wraps",
     name: "Wraps",
     items: [
-      { name: "Paneer Tikka Wrap", price: 250 },
-      { name: "Peri Peri Potato Wrap", price: 250 },
-      { name: "Mexican Wrap (Veg)", price: 280 },
-      { name: "Mexican Wrap (Non-Veg)", price: 329 },
+      { 
+        name: "Paneer Tikka Wrap", 
+        description: "Soft tortilla made from whole wheat flour (atta), loaded with smoky paneer tikka, crisp lettuce, and fresh veggies — tomato, cucumber, and capsicum. Layered with creamy in-house Tzatziki, tangy pickled onions, a drizzle of olive oil and lemon juice, and our signature in-house LCM dressing. (300 Gms).",
+        price: 250 
+      },
+      { 
+        name: "Peri Peri Potato Wrap", 
+        description: "Soft tortilla made from whole wheat flour (atta), loaded with crispy peri peri baby potatoes, crisp lettuce, and fresh veggies — tomato, cucumber, and capsicum. Layered with creamy in-house Tzatziki, tangy pickled onions, a drizzle of olive oil and lemon juice, and our signature in-house LCM dressing (300 Gms).",
+        price: 250 
+      },
     ],
   },
   {
