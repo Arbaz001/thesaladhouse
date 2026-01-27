@@ -29,9 +29,11 @@ const Hero = () => {
         </div>
       </div>
 
-      <button onClick={scrollToMenu} className="absolute bottom-8 left-1/2 -translate-x-1/2 text-muted-foreground hover:text-primary transition-colors animate-bounce z-10" aria-label="Scroll to menu">
-        <ChevronDown className="h-8 w-8" />
-      </button>
+      <div className="absolute bottom-8 left-0 right-0 flex justify-center z-10">
+        <button onClick={scrollToMenu} className="text-muted-foreground hover:text-primary transition-colors animate-bounce" aria-label="Scroll to menu">
+          <ChevronDown className="h-8 w-8" />
+        </button>
+      </div>
     </section>;
 };
 export default Hero;
