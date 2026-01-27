@@ -8,6 +8,9 @@ import gallery5 from "@/assets/gallery-5.jpeg";
 import gallery6 from "@/assets/gallery-6.jpeg";
 import gallery7 from "@/assets/gallery-7.jpeg";
 import gallery8 from "@/assets/gallery-8.jpeg";
+import gallery9 from "@/assets/gallery-9.jpg";
+import gallery10 from "@/assets/gallery-10.jpg";
+import gallery11 from "@/assets/gallery-11.jpg";
 
 const galleryImages = [
   { src: gallery1, alt: "The Salad House - Fresh ingredients" },
@@ -18,6 +21,9 @@ const galleryImages = [
   { src: gallery6, alt: "The Salad House - Fresh greenery décor" },
   { src: gallery7, alt: "The Salad House - Fresh dips and sauces" },
   { src: gallery8, alt: "The Salad House - Restaurant storefront at night" },
+  { src: gallery9, alt: "The Salad House - Cozy window seating" },
+  { src: gallery10, alt: "The Salad House - Restaurant exterior view" },
+  { src: gallery11, alt: "The Salad House - Our wonderful team" },
 ];
 
 const PhotoGallery = () => {
