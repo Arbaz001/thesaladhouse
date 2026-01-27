@@ -22,9 +22,11 @@ const Hero = () => {
           Serving salads, meal bowls, wraps, yogurt bowls & juices— made fresh, every day.
         </p>
 
-        <Button onClick={scrollToMenu} size="lg" className="rounded-full px-8 py-6 text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300">
-          View Menu
-        </Button>
+        <div className="flex justify-center">
+          <Button onClick={scrollToMenu} size="lg" className="rounded-full px-8 py-6 text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300">
+            View Menu
+          </Button>
+        </div>
       </div>
 
       <button onClick={scrollToMenu} className="absolute bottom-8 left-1/2 -translate-x-1/2 text-muted-foreground hover:text-primary transition-colors animate-bounce z-10" aria-label="Scroll to menu">
