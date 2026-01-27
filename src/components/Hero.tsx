@@ -10,24 +10,24 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-[50vh] pt-20 flex flex-col items-center justify-center relative px-4 overflow-hidden bg-gradient-to-br from-secondary via-background to-secondary">
-      {/* Decorative background elements inspired by logo */}
+    <section className="min-h-[50vh] pt-20 flex flex-col items-center justify-center relative px-4 overflow-hidden bg-secondary/30">
+      {/* Logo watermark background pattern */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Soft circular gradients mimicking the logo's organic feel */}
-        <div className="absolute -top-20 -left-20 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
-        <div className="absolute -bottom-32 -right-20 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
-        <div className="absolute top-1/2 left-1/4 w-48 h-48 bg-primary/3 rounded-full blur-2xl" />
-        
-        {/* Subtle leaf-like decorative shapes */}
-        <svg className="absolute top-16 right-10 w-24 h-24 text-primary/10 rotate-12" viewBox="0 0 100 100" fill="currentColor">
-          <ellipse cx="50" cy="50" rx="45" ry="25" />
-        </svg>
-        <svg className="absolute bottom-20 left-8 w-20 h-20 text-accent/10 -rotate-45" viewBox="0 0 100 100" fill="currentColor">
-          <ellipse cx="50" cy="50" rx="45" ry="25" />
-        </svg>
-        <svg className="absolute top-32 left-1/3 w-16 h-16 text-primary/5 rotate-45" viewBox="0 0 100 100" fill="currentColor">
-          <ellipse cx="50" cy="50" rx="45" ry="25" />
-        </svg>
+        <img 
+          src={tshLogo} 
+          alt="" 
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-auto opacity-[0.08]"
+        />
+        <img 
+          src={tshLogo} 
+          alt="" 
+          className="absolute -top-10 -left-20 w-64 h-auto opacity-[0.05] rotate-[-15deg]"
+        />
+        <img 
+          src={tshLogo} 
+          alt="" 
+          className="absolute -bottom-10 -right-16 w-56 h-auto opacity-[0.05] rotate-[20deg]"
+        />
       </div>
       
       <div className="text-center max-w-3xl mx-auto relative z-10">
