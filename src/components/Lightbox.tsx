@@ -13,17 +13,41 @@ interface LightboxProps {
 const Lightbox = ({ images, currentIndex, isOpen, onClose, onPrev, onNext }: LightboxProps) => {
   const [touchStart, setTouchStart] = useState<number | null>(null);
   const [touchEnd, setTouchEnd] = useState<number | null>(null);
+  const [slideDirection, setSlideDirection] = useState<"left" | "right" | null>(null);
+  const [isAnimating, setIsAnimating] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Minimum swipe distance threshold (in px)
   const minSwipeDistance = 50;
 
   const handleKeyDown = useCallback((e: KeyboardEvent) => {
-    if (!isOpen) return;
+    if (!isOpen || isAnimating) return;
     if (e.key === "Escape") onClose();
-    if (e.key === "ArrowLeft") onPrev();
-    if (e.key === "ArrowRight") onNext();
-  }, [isOpen, onClose, onPrev, onNext]);
+    if (e.key === "ArrowLeft") handlePrev();
+    if (e.key === "ArrowRight") handleNext();
+  }, [isOpen, isAnimating, onClose]);
+
+  const handleNext = useCallback(() => {
+    if (isAnimating) return;
+    setSlideDirection("left");
+    setIsAnimating(true);
+    setTimeout(() => {
+      onNext();
+      setSlideDirection(null);
+      setIsAnimating(false);
+    }, 200);
+  }, [isAnimating, onNext]);
+
+  const handlePrev = useCallback(() => {
+    if (isAnimating) return;
+    setSlideDirection("right");
+    setIsAnimating(true);
+    setTimeout(() => {
+      onPrev();
+      setSlideDirection(null);
+      setIsAnimating(false);
+    }, 200);
+  }, [isAnimating, onPrev]);
 
   useEffect(() => {
     document.addEventListener("keydown", handleKeyDown);
@@ -51,16 +75,16 @@ const Lightbox = ({ images, currentIndex, isOpen, onClose, onPrev, onNext }: Lig
   };
 
   const onTouchEnd = () => {
-    if (!touchStart || !touchEnd) return;
+    if (!touchStart || !touchEnd || isAnimating) return;
     
     const distance = touchStart - touchEnd;
     const isLeftSwipe = distance > minSwipeDistance;
     const isRightSwipe = distance < -minSwipeDistance;
     
     if (isLeftSwipe) {
-      onNext();
+      handleNext();
     } else if (isRightSwipe) {
-      onPrev();
+      handlePrev();
     }
     
     setTouchStart(null);
@@ -71,10 +95,16 @@ const Lightbox = ({ images, currentIndex, isOpen, onClose, onPrev, onNext }: Lig
 
   const currentImage = images[currentIndex];
 
+  const getSlideClass = () => {
+    if (slideDirection === "left") return "animate-slide-out-left";
+    if (slideDirection === "right") return "animate-slide-out-right";
+    return "animate-slide-in";
+  };
+
   return (
     <div 
       ref={containerRef}
-      className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center animate-fade-in touch-pan-y"
+      className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center animate-fade-in touch-pan-y overflow-hidden"
       onClick={onClose}
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
@@ -91,17 +121,22 @@ const Lightbox = ({ images, currentIndex, isOpen, onClose, onPrev, onNext }: Lig
 
       {/* Previous button */}
       <button
-        onClick={(e) => { e.stopPropagation(); onPrev(); }}
+        onClick={(e) => { e.stopPropagation(); handlePrev(); }}
         className="absolute left-4 text-white/80 hover:text-white transition-colors z-10 p-2 hover:bg-white/10 rounded-full hidden md:block"
         aria-label="Previous image"
+        disabled={isAnimating}
       >
         <ChevronLeft className="h-10 w-10" />
       </button>
 
-      {/* Image */}
+      {/* Image with slide animation */}
       <div 
-        className="max-w-[90vw] max-h-[90vh] flex items-center justify-center select-none"
+        className={`max-w-[90vw] max-h-[90vh] flex items-center justify-center select-none ${getSlideClass()}`}
         onClick={(e) => e.stopPropagation()}
+        style={{
+          animationDuration: "200ms",
+          animationFillMode: "forwards",
+        }}
       >
         <img
           src={currentImage.src}
@@ -113,9 +148,10 @@ const Lightbox = ({ images, currentIndex, isOpen, onClose, onPrev, onNext }: Lig
 
       {/* Next button */}
       <button
-        onClick={(e) => { e.stopPropagation(); onNext(); }}
+        onClick={(e) => { e.stopPropagation(); handleNext(); }}
         className="absolute right-4 text-white/80 hover:text-white transition-colors z-10 p-2 hover:bg-white/10 rounded-full hidden md:block"
         aria-label="Next image"
+        disabled={isAnimating}
       >
         <ChevronRight className="h-10 w-10" />
       </button>
