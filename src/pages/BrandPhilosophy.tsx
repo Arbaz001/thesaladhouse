@@ -71,7 +71,7 @@ const BrandPhilosophy = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-primary">Real Hands, Real Food</h2>
             </div>
             <p className="text-center text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-              Everything here is made by people, not machines. And honestly? That's exactly how we want it.
+              Everything here is made by people, not machines — exactly how we want it.
             </p>
             <div className="bg-background rounded-xl p-8 shadow-sm">
               <div className="grid md:grid-cols-3 gap-6 text-center">
