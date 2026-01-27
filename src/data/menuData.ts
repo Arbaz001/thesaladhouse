@@ -36,6 +36,7 @@ import periPeriPotatoBites from "@/assets/peri-peri-potato-bites.jpeg";
 import paneerTikkaAvocadoRiceBowl from "@/assets/paneer-tikka-avocado-rice-bowl.jpg";
 import mexicanBurritoRiceSaladBowl from "@/assets/mexican-burrito-rice-salad-bowl.jpg";
 import falafelQuinoaSaladBowl from "@/assets/falafel-quinoa-salad-bowl.jpg";
+import proteinYogurtBowl from "@/assets/protein-yogurt-bowl-fresh-fruits.jpeg";
 
 export const menuData: MenuCategory[] = [
   {
@@ -65,6 +66,18 @@ export const menuData: MenuCategory[] = [
         description: "Crispy falafel on fresh greens with herbed quinoa, veggies, and candied nuts. Served with in-house beetroot hummus and Valencia orange chilli dressing, topped with feta cheese and pomegranate (522 Gms). Made fresh daily. Zero frozen ingredients. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day.",
         price: 329,
         image: falafelQuinoaSaladBowl
+      },
+    ],
+  },
+  {
+    id: "protein-bowls",
+    name: "Protein Bowls",
+    items: [
+      {
+        name: "Protein Yogurt Bowl With Fresh Fruits",
+        description: "Made with 1 scoop of SuperYou Chocolate Fermented Yeast Protein, this rich chocolate-flavoured hung curd bowl is topped with fresh fruits, chia seeds, and roasted mixed seeds — a perfect blend of indulgence and nutrition (481Gms). Made fresh daily. Unsold food is responsibly donated every day.",
+        price: 549,
+        image: proteinYogurtBowl
       },
     ],
   },
