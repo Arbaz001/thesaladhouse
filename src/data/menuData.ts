@@ -35,6 +35,7 @@ import periPeriPotatoWrap from "@/assets/peri-peri-potato-wrap.png";
 import periPeriPotatoBites from "@/assets/peri-peri-potato-bites.jpeg";
 import paneerTikkaAvocadoRiceBowl from "@/assets/paneer-tikka-avocado-rice-bowl.jpg";
 import mexicanBurritoRiceSaladBowl from "@/assets/mexican-burrito-rice-salad-bowl.jpg";
+import falafelQuinoaSaladBowl from "@/assets/falafel-quinoa-salad-bowl.jpg";
 
 export const menuData: MenuCategory[] = [
   {
@@ -58,7 +59,14 @@ export const menuData: MenuCategory[] = [
   {
     id: "salad-quinoa-bowls",
     name: "Salad And Quinoa Bowls",
-    items: [],
+    items: [
+      {
+        name: "Falafel Quinoa Salad Bowl",
+        description: "Crispy falafel on fresh greens with herbed quinoa, veggies, and candied nuts. Served with in-house beetroot hummus and Valencia orange chilli dressing, topped with feta cheese and pomegranate (522 Gms). Made fresh daily. Zero frozen ingredients. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day.",
+        price: 329,
+        image: falafelQuinoaSaladBowl
+      },
+    ],
   },
   {
     id: "salad-bowls",
