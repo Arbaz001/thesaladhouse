@@ -36,6 +36,16 @@ import periPeriPotatoBites from "@/assets/peri-peri-potato-bites.jpeg";
 
 export const menuData: MenuCategory[] = [
   {
+    id: "salad-rice-bowls",
+    name: "Salad And Rice Bowls",
+    items: [],
+  },
+  {
+    id: "salad-quinoa-bowls",
+    name: "Salad And Quinoa Bowls",
+    items: [],
+  },
+  {
     id: "salad-bowls",
     name: "Salad Bowls",
     items: [
