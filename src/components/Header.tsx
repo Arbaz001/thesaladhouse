@@ -10,11 +10,11 @@ const Header = () => {
     },
     {
       to: "/brand-philosophy",
-      label: "Brand Philosophy",
+      label: "Our Food Philosophy",
     },
     {
       to: "/find-us",
-      label: "Visit Us",
+      label: "Find Us",
     },
   ];
   return (
