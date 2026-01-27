@@ -10,7 +10,7 @@ const Hero = () => {
       
       <div className="text-center max-w-3xl mx-auto relative z-10">
         <div className="flex items-center justify-center gap-2 mb-6">
-          <Leaf className="h-10 w-10 text-primary" />
+          <Leaf className="text-primary h-[40px] w-[40px]" />
         </div>
         
         <h1 className="text-5xl md:text-7xl mb-4 tracking-tight text-primary font-serif font-extrabold">
