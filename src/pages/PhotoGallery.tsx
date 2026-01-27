@@ -3,11 +3,19 @@ import Footer from "@/components/Footer";
 import gallery1 from "@/assets/gallery-1.avif";
 import gallery2 from "@/assets/gallery-2.avif";
 import gallery3 from "@/assets/gallery-3.avif";
+import gallery4 from "@/assets/gallery-4.jpeg";
+import gallery5 from "@/assets/gallery-5.jpeg";
+import gallery6 from "@/assets/gallery-6.jpeg";
+import gallery7 from "@/assets/gallery-7.jpeg";
 
 const galleryImages = [
   { src: gallery1, alt: "The Salad House - Fresh ingredients" },
   { src: gallery2, alt: "The Salad House - Healthy bowls" },
   { src: gallery3, alt: "The Salad House - Restaurant ambiance" },
+  { src: gallery4, alt: "The Salad House - Night view exterior" },
+  { src: gallery5, alt: "The Salad House - Our amazing team" },
+  { src: gallery6, alt: "The Salad House - Fresh greenery décor" },
+  { src: gallery7, alt: "The Salad House - Fresh dips and sauces" },
 ];
 
 const PhotoGallery = () => {
