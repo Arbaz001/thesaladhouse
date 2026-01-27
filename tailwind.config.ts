@@ -128,7 +128,8 @@ export default {
   				'Segoe UI Symbol',
   				'Noto Color Emoji'
   			],
-  			serif: [
+  		serif: [
+  				'Playfair Display',
   				'ui-serif',
   				'Georgia',
   				'Cambria',
