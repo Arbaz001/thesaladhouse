@@ -7,6 +7,7 @@ import gallery4 from "@/assets/gallery-4.jpeg";
 import gallery5 from "@/assets/gallery-5.jpeg";
 import gallery6 from "@/assets/gallery-6.jpeg";
 import gallery7 from "@/assets/gallery-7.jpeg";
+import gallery8 from "@/assets/gallery-8.jpeg";
 
 const galleryImages = [
   { src: gallery1, alt: "The Salad House - Fresh ingredients" },
@@ -16,6 +17,7 @@ const galleryImages = [
   { src: gallery5, alt: "The Salad House - Our amazing team" },
   { src: gallery6, alt: "The Salad House - Fresh greenery décor" },
   { src: gallery7, alt: "The Salad House - Fresh dips and sauces" },
+  { src: gallery8, alt: "The Salad House - Restaurant storefront at night" },
 ];
 
 const PhotoGallery = () => {
