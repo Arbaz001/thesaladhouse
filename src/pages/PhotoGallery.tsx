@@ -1,5 +1,7 @@
+import { useState, useCallback } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Lightbox from "@/components/Lightbox";
 import gallery1 from "@/assets/gallery-1.avif";
 import gallery2 from "@/assets/gallery-2.avif";
 import gallery3 from "@/assets/gallery-3.avif";
@@ -27,6 +29,24 @@ const galleryImages = [
 ];
 
 const PhotoGallery = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const openLightbox = (index: number) => {
+    setCurrentIndex(index);
+    setLightboxOpen(true);
+  };
+
+  const closeLightbox = () => setLightboxOpen(false);
+
+  const goToPrev = useCallback(() => {
+    setCurrentIndex((prev) => (prev === 0 ? galleryImages.length - 1 : prev - 1));
+  }, []);
+
+  const goToNext = useCallback(() => {
+    setCurrentIndex((prev) => (prev === galleryImages.length - 1 ? 0 : prev + 1));
+  }, []);
+
   return (
     <div className="min-h-screen">
       <Header />
@@ -41,7 +61,8 @@ const PhotoGallery = () => {
             {galleryImages.map((image, index) => (
               <div 
                 key={index} 
-                className="overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                className="overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
+                onClick={() => openLightbox(index)}
               >
                 <img
                   src={image.src}
@@ -54,6 +75,15 @@ const PhotoGallery = () => {
         </div>
       </main>
       <Footer />
+
+      <Lightbox
+        images={galleryImages}
+        currentIndex={currentIndex}
+        isOpen={lightboxOpen}
+        onClose={closeLightbox}
+        onPrev={goToPrev}
+        onNext={goToNext}
+      />
     </div>
   );
 };
