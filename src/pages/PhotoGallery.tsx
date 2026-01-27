@@ -2,28 +2,26 @@ import { useState, useCallback } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Lightbox from "@/components/Lightbox";
-import gallery1 from "@/assets/gallery-1.avif";
-import gallery2 from "@/assets/gallery-2.avif";
-import gallery3 from "@/assets/gallery-3.avif";
-import gallery4 from "@/assets/gallery-4.jpeg";
-import gallery5 from "@/assets/gallery-5.jpeg";
-import gallery6 from "@/assets/gallery-6.jpeg";
-import gallery7 from "@/assets/gallery-7.jpeg";
-import gallery8 from "@/assets/gallery-8.jpeg";
-import gallery9 from "@/assets/gallery-9.jpg";
-import gallery10 from "@/assets/gallery-10.jpg";
+import gallery1 from "@/assets/gallery-4.jpeg";
+import gallery2 from "@/assets/gallery-5.jpeg";
+import gallery3 from "@/assets/gallery-6.jpeg";
+import gallery4 from "@/assets/gallery-7.jpeg";
+import gallery5 from "@/assets/gallery-9.jpg";
+import gallery6 from "@/assets/gallery-10.jpg";
+import gallery7 from "@/assets/gallery-jars.jpeg";
+import gallery8 from "@/assets/gallery-team.jpeg";
+import gallery9 from "@/assets/gallery-dine.jpg";
 
 const galleryImages = [
-  { src: gallery1, alt: "The Salad House - Fresh ingredients" },
-  { src: gallery2, alt: "The Salad House - Healthy bowls" },
-  { src: gallery3, alt: "The Salad House - Restaurant ambiance" },
-  { src: gallery4, alt: "The Salad House - Night view exterior" },
-  { src: gallery5, alt: "The Salad House - Our amazing team" },
-  { src: gallery6, alt: "The Salad House - Fresh greenery décor" },
-  { src: gallery7, alt: "The Salad House - Fresh dips and sauces" },
-  { src: gallery8, alt: "The Salad House - Restaurant storefront at night" },
-  { src: gallery9, alt: "The Salad House - Cozy window seating" },
-  { src: gallery10, alt: "The Salad House - Restaurant exterior view" },
+  { src: gallery1, alt: "The Salad House - Night view exterior" },
+  { src: gallery2, alt: "The Salad House - Our amazing team" },
+  { src: gallery3, alt: "The Salad House - Fresh greenery décor" },
+  { src: gallery4, alt: "The Salad House - Fresh dips and sauces" },
+  { src: gallery5, alt: "The Salad House - Cozy window seating" },
+  { src: gallery6, alt: "The Salad House - Restaurant exterior view" },
+  { src: gallery7, alt: "The Salad House - Fresh pickled vegetables" },
+  { src: gallery8, alt: "The Salad House - Our friendly team" },
+  { src: gallery9, alt: "The Salad House - Stylish dining area" },
 ];
 
 const PhotoGallery = () => {
