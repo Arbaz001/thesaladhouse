@@ -14,7 +14,7 @@ const Header = () => {
     },
     {
       to: "/find-us",
-      label: "Find Us",
+      label: "Visit Us",
     },
   ];
   return (
