@@ -34,6 +34,7 @@ import paneerTikkaWrap from "@/assets/paneer-tikka-wrap.jpeg";
 import periPeriPotatoWrap from "@/assets/peri-peri-potato-wrap.png";
 import periPeriPotatoBites from "@/assets/peri-peri-potato-bites.jpeg";
 import paneerTikkaAvocadoRiceBowl from "@/assets/paneer-tikka-avocado-rice-bowl.jpg";
+import mexicanBurritoRiceSaladBowl from "@/assets/mexican-burrito-rice-salad-bowl.jpg";
 
 export const menuData: MenuCategory[] = [
   {
@@ -45,6 +46,12 @@ export const menuData: MenuCategory[] = [
         description: "Smoky paneer tikka and creamy avocado tossed with rice and fresh veggies, refreshing in-house tzatziki, LCM dressing, and topped with candied spicy nuts and feta. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day (410 Gms).",
         price: 329,
         image: paneerTikkaAvocadoRiceBowl
+      },
+      {
+        name: "Mexican Burrito Rice Salad Bowl",
+        description: "Spiced Mexican patty, guac, salsa, and black bean gravy over rice with nachos, cheese, and creamy sour cream. A burrito in a bowl. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day (410Gms).",
+        price: 329,
+        image: mexicanBurritoRiceSaladBowl
       },
     ],
   },
