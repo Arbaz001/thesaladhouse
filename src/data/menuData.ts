@@ -40,48 +40,6 @@ import proteinYogurtBowl from "@/assets/protein-yogurt-bowl-fresh-fruits.jpeg";
 
 export const menuData: MenuCategory[] = [
   {
-    id: "salad-rice-bowls",
-    name: "Salad And Rice Bowls",
-    items: [
-      {
-        name: "Paneer Tikka Avocado Rice Bowl",
-        description: "Smoky paneer tikka and creamy avocado tossed with rice and fresh veggies, refreshing in-house tzatziki, LCM dressing, and topped with candied spicy nuts and feta. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day (410 Gms).",
-        price: 329,
-        image: paneerTikkaAvocadoRiceBowl
-      },
-      {
-        name: "Mexican Burrito Rice Salad Bowl",
-        description: "Spiced Mexican patty, guac, salsa, and black bean gravy over rice with nachos, cheese, and creamy sour cream. A burrito in a bowl. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day (410Gms).",
-        price: 329,
-        image: mexicanBurritoRiceSaladBowl
-      },
-    ],
-  },
-  {
-    id: "salad-quinoa-bowls",
-    name: "Salad And Quinoa Bowls",
-    items: [
-      {
-        name: "Falafel Quinoa Salad Bowl",
-        description: "Crispy falafel on fresh greens with herbed quinoa, veggies, and candied nuts. Served with in-house beetroot hummus and Valencia orange chilli dressing, topped with feta cheese and pomegranate (522 Gms). Made fresh daily. Zero frozen ingredients. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day.",
-        price: 329,
-        image: falafelQuinoaSaladBowl
-      },
-    ],
-  },
-  {
-    id: "protein-bowls",
-    name: "Protein Bowls",
-    items: [
-      {
-        name: "Protein Yogurt Bowl With Fresh Fruits",
-        description: "Made with 1 scoop of SuperYou Chocolate Fermented Yeast Protein, this rich chocolate-flavoured hung curd bowl is topped with fresh fruits, chia seeds, and roasted mixed seeds — a perfect blend of indulgence and nutrition (481Gms). Made fresh daily. Unsold food is responsibly donated every day.",
-        price: 549,
-        image: proteinYogurtBowl
-      },
-    ],
-  },
-  {
     id: "salad-bowls",
     name: "Salad Bowls",
     items: [
@@ -102,6 +60,36 @@ export const menuData: MenuCategory[] = [
         description: "Mexican patties on fresh greens with creamy avocado, fresh veggies, crunchy nachos, in-house pico de gallo, sour cream, and topped with mixed seeds. (470 Gms).",
         price: 329, 
         image: mexicanNachosSaladBowl 
+      },
+    ],
+  },
+  {
+    id: "salad-quinoa-bowls",
+    name: "Salad And Quinoa Bowls",
+    items: [
+      {
+        name: "Falafel Quinoa Salad Bowl",
+        description: "Crispy falafel on fresh greens with herbed quinoa, veggies, and candied nuts. Served with in-house beetroot hummus and Valencia orange chilli dressing, topped with feta cheese and pomegranate (522 Gms). Made fresh daily. Zero frozen ingredients. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day.",
+        price: 329,
+        image: falafelQuinoaSaladBowl
+      },
+    ],
+  },
+  {
+    id: "salad-rice-bowls",
+    name: "Salad And Rice Bowls",
+    items: [
+      {
+        name: "Paneer Tikka Avocado Rice Bowl",
+        description: "Smoky paneer tikka and creamy avocado tossed with rice and fresh veggies, refreshing in-house tzatziki, LCM dressing, and topped with candied spicy nuts and feta. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day (410 Gms).",
+        price: 329,
+        image: paneerTikkaAvocadoRiceBowl
+      },
+      {
+        name: "Mexican Burrito Rice Salad Bowl",
+        description: "Spiced Mexican patty, guac, salsa, and black bean gravy over rice with nachos, cheese, and creamy sour cream. A burrito in a bowl. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day (410Gms).",
+        price: 329,
+        image: mexicanBurritoRiceSaladBowl
       },
     ],
   },
@@ -180,6 +168,18 @@ export const menuData: MenuCategory[] = [
         description: "Soft tortilla made from whole wheat flour (atta), loaded with crispy peri peri baby potatoes, crisp lettuce, and fresh veggies — tomato, cucumber, and capsicum. Layered with creamy in-house Tzatziki, tangy pickled onions, a drizzle of olive oil and lemon juice, and our signature in-house LCM dressing (300 Gms).",
         price: 250,
         image: periPeriPotatoWrap
+      },
+    ],
+  },
+  {
+    id: "protein-bowls",
+    name: "Protein Bowls",
+    items: [
+      {
+        name: "Protein Yogurt Bowl With Fresh Fruits",
+        description: "Made with 1 scoop of SuperYou Chocolate Fermented Yeast Protein, this rich chocolate-flavoured hung curd bowl is topped with fresh fruits, chia seeds, and roasted mixed seeds — a perfect blend of indulgence and nutrition (481Gms). Made fresh daily. Unsold food is responsibly donated every day.",
+        price: 549,
+        image: proteinYogurtBowl
       },
     ],
   },
