@@ -13,6 +13,10 @@ const Header = () => {
       label: "Our Food Philosophy",
     },
     {
+      to: "/photo-gallery",
+      label: "Photo Gallery",
+    },
+    {
       to: "/find-us",
       label: "Visit Us",
     },
