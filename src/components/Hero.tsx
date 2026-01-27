@@ -28,11 +28,11 @@ const Hero = () => {
         <Button onClick={scrollToMenu} size="lg" className="rounded-full px-8 py-6 text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300">
           View Menu
         </Button>
+        
+        <button onClick={scrollToMenu} className="mt-12 text-muted-foreground hover:text-primary transition-colors animate-bounce" aria-label="Scroll to menu">
+          <ChevronDown className="h-8 w-8" />
+        </button>
       </div>
-
-      <button onClick={scrollToMenu} className="absolute bottom-8 left-1/2 -translate-x-1/2 text-muted-foreground hover:text-primary transition-colors animate-bounce z-10" aria-label="Scroll to menu">
-        <ChevronDown className="h-8 w-8" />
-      </button>
     </section>
   );
 };
