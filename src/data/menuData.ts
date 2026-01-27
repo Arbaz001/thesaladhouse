@@ -33,12 +33,20 @@ import guacamole from "@/assets/guacamole.jpeg";
 import paneerTikkaWrap from "@/assets/paneer-tikka-wrap.jpeg";
 import periPeriPotatoWrap from "@/assets/peri-peri-potato-wrap.png";
 import periPeriPotatoBites from "@/assets/peri-peri-potato-bites.jpeg";
+import paneerTikkaAvocadoRiceBowl from "@/assets/paneer-tikka-avocado-rice-bowl.jpg";
 
 export const menuData: MenuCategory[] = [
   {
     id: "salad-rice-bowls",
     name: "Salad And Rice Bowls",
-    items: [],
+    items: [
+      {
+        name: "Paneer Tikka Avocado Rice Bowl",
+        description: "Smoky paneer tikka and creamy avocado tossed with rice and fresh veggies, refreshing in-house tzatziki, LCM dressing, and topped with candied spicy nuts and feta. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day (410 Gms).",
+        price: 329,
+        image: paneerTikkaAvocadoRiceBowl
+      },
+    ],
   },
   {
     id: "salad-quinoa-bowls",
