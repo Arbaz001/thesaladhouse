@@ -9,7 +9,15 @@ const Hero = () => {
   };
   
   return (
-    <section className="min-h-[50vh] pt-20 flex flex-col items-center justify-center relative px-4 bg-background">
+    <section className="min-h-[50vh] pt-20 flex flex-col items-center justify-center relative px-4 bg-background overflow-hidden">
+      {/* Subtle dot pattern background */}
+      <div 
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
+          backgroundImage: `radial-gradient(circle, hsl(var(--primary)) 1px, transparent 1px)`,
+          backgroundSize: '24px 24px'
+        }}
+      />
       
       <div className="text-center max-w-3xl mx-auto relative z-10">
         <div className="flex items-center justify-center gap-2 mb-6">
