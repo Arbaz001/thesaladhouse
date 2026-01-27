@@ -9,7 +9,7 @@ const Hero = () => {
   };
   
   return (
-    <section className="min-h-[70vh] flex flex-col items-center justify-center relative px-4 bg-background">
+    <section className="min-h-[50vh] flex flex-col items-center justify-center relative px-4 bg-background">
       
       <div className="text-center max-w-3xl mx-auto relative z-10">
         <div className="flex items-center justify-center gap-2 mb-6">
