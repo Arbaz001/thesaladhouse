@@ -18,7 +18,7 @@ const Hero = () => {
         </h1>
         
         
-        <p className="text-base text-foreground mb-12 max-w-xl mx-auto">
+        <p className="text-base text-foreground mb-12 max-w-xl mx-auto font-bold">
           Serving salads, meal bowls, wraps, yogurt bowls & juices— made fresh, every day.
         </p>
 
