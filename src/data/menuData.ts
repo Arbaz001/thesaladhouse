@@ -30,6 +30,7 @@ import mexicanSalsa from "@/assets/mexican-salsa.jpeg";
 import tzatziki from "@/assets/tzatziki.jpeg";
 import sourCream from "@/assets/sour-cream.jpeg";
 import guacamole from "@/assets/guacamole.jpeg";
+import cornSalsa from "@/assets/corn-salsa.jpeg";
 import paneerTikkaWrap from "@/assets/paneer-tikka-wrap.jpeg";
 import periPeriPotatoWrap from "@/assets/peri-peri-potato-wrap.png";
 import periPeriPotatoBites from "@/assets/peri-peri-potato-bites.jpeg";
@@ -247,6 +248,12 @@ export const menuData: MenuCategory[] = [
         description: "Creamy, chunky and irresistibly fresh! Made with ripe avocados, zesty lemon juice, fresh tomatoes, onions, coriander and a hint of pepper & salt—this guacamole delivers the perfect balance of richness and tang. Blended in small batches with premium olive oil for a smooth dip. Perfect for nachos, salads, burritos, sandwiches or as a healthy spread (280 Gms).",
         price: 599, 
         image: guacamole 
+      },
+      { 
+        name: "Corn Salsa", 
+        description: "Fresh and zesty Corn Salsa made with sweet American corn, crunchy onions, and fresh coriander — perfectly balanced with tang, mild spice, and freshness (280 Gms). Made fresh daily. Zero frozen ingredients. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day.",
+        price: 129, 
+        image: cornSalsa 
       },
     ],
   },
