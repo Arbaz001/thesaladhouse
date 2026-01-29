@@ -58,10 +58,13 @@ const Index = () => {
       </section>
 
       {/* Brand Philosophy Section */}
-      <section id="philosophy" className="pt-20 pb-16">
+      <section id="philosophy" className="pt-4 md:pt-12 pb-4 md:pb-8">
         {/* Hero Section */}
-        <div className="px-4 py-12 bg-gradient-to-b from-secondary/30 to-background">
+        <div className="px-4 py-4 md:py-8 bg-gradient-to-b from-secondary/30 to-background">
           <div className="max-w-6xl mx-auto text-center">
+            <h1 className="text-6xl md:text-5xl font-bold text-primary mb-4">
+              Our Food Philosophy
+            </h1>
             <div className="flex items-center justify-center gap-2 mb-6">
               <Leaf className="h-10 w-10 text-primary" />
             </div>
@@ -75,7 +78,7 @@ const Index = () => {
         </div>
 
         {/* Quality Practices Section */}
-        <div className="px-4 py-12">
+        <div className="px-4 py-4 md:py-8">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 text-center">How We Do Things</h2>
             <p className="text-center text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
@@ -116,7 +119,7 @@ const Index = () => {
         </div>
 
         {/* Human-Made Philosophy Section */}
-        <div className="px-4 py-12 bg-secondary/20">
+        <div className="px-4 py-4 md:py-8 bg-secondary/20">
           <div className="max-w-6xl mx-auto">
             <div className="flex items-center justify-center gap-3 mb-4">
               <Hand className="h-10 w-10 text-primary" />
@@ -155,7 +158,7 @@ const Index = () => {
       </section>
 
       {/* Photo Gallery Section */}
-      <section id="gallery" className="pt-20 pb-16">
+      <section id="gallery" className="pt-4 md:pt-12 pb-4 md:pb-8">
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-4xl font-bold text-foreground mb-4 text-center">Photo Gallery</h1>
           <p className="text-muted-foreground text-center mb-12">
@@ -191,7 +194,7 @@ const Index = () => {
 
       {/* Find Us Section */}
       <section id="visit">
-        <main className="pt-20 pb-16">
+        <main className="pt-4 md:pt-12 pb-4 md:pb-8">
           <Location />
         </main>
       </section>
