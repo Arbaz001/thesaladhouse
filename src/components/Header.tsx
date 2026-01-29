@@ -1,8 +1,11 @@
-import { Leaf } from "lucide-react";
+import { Leaf, Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
+import { useState } from "react";
 
 const Header = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   const navLinks = [
     { id: "home", label: "Home" },
     { id: "menu", label: "Menu" },
@@ -16,31 +19,65 @@ const Header = () => {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
+    setMobileMenuOpen(false);
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
-      <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <Link
-          to="/"
-          className="flex items-center text-foreground hover:text-primary transition-colors"
-          aria-label="Home"
-        >
-          <Leaf className="h-7 w-7 text-primary" />
-        </Link>
+    <header className="fixed top-0 left-0 right-0 z-50">
+      <div className="max-w-6xl mx-auto px-4 py-4">
+        <div className="flex items-center justify-between px-4 md:px-6 py-3 md:py-4 bg-white backdrop-blur-md border border-gray-200 rounded-full">
+          <Link
+            to="/"
+            className="flex items-center text-foreground hover:text-primary transition-colors"
+            aria-label="Home"
+          >
+            <Leaf className="h-6 w-6 md:h-7 md:w-7 text-primary" />
+          </Link>
 
-        <nav className="flex items-center gap-6">
-          {navLinks.map((link) => (
-            <button
-              key={link.id}
-              onClick={() => scrollToSection(link.id)}
-              className="text-sm transition-colors hover:text-primary font-bold text-muted-foreground hover:text-primary cursor-pointer"
-            >
-              {link.label}
-            </button>
-          ))}
-        </nav>
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center gap-2">
+            {navLinks.map((link) => (
+              <button
+                key={link.id}
+                onClick={() => scrollToSection(link.id)}
+                className="px-4 py-2 text-sm font-semibold text-gray-800 hover:text-primary hover:bg-gray-100 transition-all duration-200 rounded-full"
+              >
+                {link.label}
+              </button>
+            ))}
+          </nav>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden text-gray-800 hover:text-primary transition-colors p-2 hover:bg-gray-100 rounded-full"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            {mobileMenuOpen ? (
+              <X className="h-6 w-6" />
+            ) : (
+              <Menu className="h-6 w-6" />
+            )}
+          </button>
+        </div>
       </div>
+
+      {/* Mobile Navigation Dropdown */}
+      {mobileMenuOpen && (
+        <div className="md:hidden mx-4 mt-2 bg-white backdrop-blur-md border border-gray-200 rounded-2xl overflow-hidden">
+          <nav className="flex flex-col p-3 gap-1">
+            {navLinks.map((link) => (
+              <button
+                key={link.id}
+                onClick={() => scrollToSection(link.id)}
+                className="w-full text-left px-4 py-3 text-sm font-semibold text-gray-800 hover:bg-gray-100 hover:text-primary transition-all duration-200 rounded-lg"
+              >
+                {link.label}
+              </button>
+            ))}
+          </nav>
+        </div>
+      )}
     </header>
   );
 };
