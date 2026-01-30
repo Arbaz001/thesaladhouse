@@ -10,7 +10,7 @@ const Hero = () => {
   return <section className="min-h-[50vh] pt-20 flex flex-col items-center justify-center relative px-4 overflow-hidden">
       
       <div className="text-center max-w-3xl mx-auto relative z-10">
-        <h1 className="text-5xl md:text-7xl mb-4 tracking-tight text-primary font-serif font-extrabold">
+        <h1 className="text-5xl md:text-6xl mb-4 tracking-tight text-primary font-serif font-extrabold text-center">
           The Salad House
         </h1>
         
