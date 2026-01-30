@@ -62,13 +62,13 @@ const Index = () => {
         {/* Hero Section */}
         <div className="px-4 py-4 md:py-8 bg-gradient-to-b from-secondary/30 to-background">
           <div className="max-w-6xl mx-auto text-center">
-            <h1 className="text-6xl md:text-5xl font-bold text-primary mb-4">
+            <h1 className="text-5xl md:text-6xl font-bold text-primary mb-4 text-center">
               Our Food Philosophy
             </h1>
             <div className="flex items-center justify-center gap-2 mb-6">
               <Leaf className="h-10 w-10 text-primary" />
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+            <h1 className="text-xl md:text-3xl font-bold text-primary mb-4 text-center">
               What We Believe In
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -80,7 +80,7 @@ const Index = () => {
         {/* Quality Practices Section */}
         <div className="px-4 py-4 md:py-8">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 text-center">How We Do Things</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4 text-center">How We Do Things</h2>
             <p className="text-center text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
               These aren't marketing promises — they're how we actually run our kitchen, every single day.
             </p>
@@ -121,9 +121,9 @@ const Index = () => {
         {/* Human-Made Philosophy Section */}
         <div className="px-4 py-4 md:py-8 bg-secondary/20">
           <div className="max-w-6xl mx-auto">
-            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="flex items-center justify-center gap-3 mb-4">
               <Hand className="h-10 w-10 text-primary" />
-              <h2 className="text-4xl md:text-5xl font-bold text-primary">Real Hands, Real Food</h2>
+              <h2 className="text-5xl md:text-6xl font-bold text-primary text-center">Real Hands, Real Food</h2>
             </div>
             <p className="text-center text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
               Everything here is made by people, not machines — exactly how we want it.
@@ -160,7 +160,7 @@ const Index = () => {
       {/* Photo Gallery Section */}
       <section id="gallery" className="pt-4 md:pt-12 pb-4 md:pb-8">
         <div className="max-w-6xl mx-auto px-4">
-          <h1 className="text-4xl font-bold text-foreground mb-4 text-center">Photo Gallery</h1>
+          <h1 className="text-5xl md:text-6xl font-bold text-primary mb-4 text-center">Photo Gallery</h1>
           <p className="text-muted-foreground text-center mb-12">
             A visual journey through our fresh, healthy offerings.
           </p>

@@ -3,7 +3,7 @@ const Location = () => {
   return <section id="location" className="py-12 px-4 bg-secondary/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">
+          <h2 className="text-5xl md:text-6xl font-bold mb-4 text-primary">
             Find Us
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
