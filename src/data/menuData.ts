@@ -83,7 +83,7 @@ export const menuData: MenuCategory[] = [
       {
         name: "Paneer Tikka Avocado Rice Bowl",
         description: "Smoky paneer tikka and creamy avocado tossed with rice and fresh veggies, refreshing in-house tzatziki, LCM dressing, and topped with candied spicy nuts and feta. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day (410 Gms).",
-        price: 165,
+        price: 329,
         image: paneerTikkaAvocadoRiceBowl
       },
       {
