@@ -83,7 +83,7 @@ export const menuData: MenuCategory[] = [
       {
         name: "Paneer Tikka Avocado Rice Bowl",
         description: "Smoky paneer tikka and creamy avocado tossed with rice and fresh veggies, refreshing in-house tzatziki, LCM dressing, and topped with candied spicy nuts and feta. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day (410 Gms).",
-        price: 329,
+        price: 165,
         image: paneerTikkaAvocadoRiceBowl
       },
       {
@@ -101,13 +101,13 @@ export const menuData: MenuCategory[] = [
       { 
         name: "Mexican Mushroom Rice Bowl", 
         description: "Mushroom popcorn with fresh greens, fajita veggies, black bean gravy, corn salsa, pico de gallo, pickled vegetables, and a dollop of fresh hung curd — all made in-house. No extra dips or dressings. (491 Gms).",
-        price: 399, 
+        price: 200, 
         image: mexicanMushroomBowl 
       },
       { 
         name: "Mexican Peri Peri Potato Rice Bowl", 
         description: "Peri Peri potato with fresh greens, fajita veggies, black bean gravy, corn salsa, pico de gallo, pickled vegetables, and a dollop of fresh hung curd — all made in-house. (491 Gms).",
-        price: 329, 
+        price: 165, 
         image: mexicanPeriPeriBowl 
       },
       { 
