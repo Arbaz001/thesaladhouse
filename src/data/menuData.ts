@@ -47,7 +47,6 @@ import sourCreamLabTest from "@/assets/sour-cream-lab-test.png";
 import guacamole from "@/assets/guacamole.jpeg";
 import guacamoleLabTest from "@/assets/guacamole-lab-test.png";
 import cornSalsa from "@/assets/corn-salsa.jpeg";
-import cornSalsaLabTest from "@/assets/corn-salsa-lab-test.png";
 import paneerTikkaWrap from "@/assets/paneer-tikka-wrap.jpeg";
 import panerrTikkaWrapLabTest from "@/assets/paneer-tikka-wrap-lab-test.png";
 import periPeriPotatoWrap from "@/assets/peri-peri-potato-wrap.png";
@@ -277,7 +276,7 @@ export const menuData: MenuCategory[] = [
         name: "Corn Salsa", 
         description: "Fresh and zesty Corn Salsa made with sweet American corn, crunchy onions, and fresh coriander — perfectly balanced with tang, mild spice, and freshness (280 Gms). Made fresh daily. Zero frozen ingredients. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day.",
         price: 129, 
-        image: [cornSalsa, cornSalsaLabTest]
+        image: cornSalsa
       },
     ],
   },
