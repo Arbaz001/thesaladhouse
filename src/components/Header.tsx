@@ -94,14 +94,6 @@ const Header = () => {
                 {link.label}
               </button>
             ))}
-            <a
-              href="https://wa.me/919910074374?text=Hi%2C%20I%27d%20like%20to%20order%20avocados"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full text-center px-4 py-3 text-sm font-bold bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-all duration-200 mt-1"
-            >
-              🥑 Buy Avocado
-            </a>
           </nav>
         </div>
       )}
