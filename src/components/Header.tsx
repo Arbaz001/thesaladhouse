@@ -13,7 +13,6 @@ const Header = () => {
     { id: "gallery", label: "Photo Gallery" },
     { id: "corporate", label: "Corporate Orders" },
     { id: "visit", label: "Visit Us" },
-    { id: "avocado", label: "Buy Avocado", isExternal: true },
   ];
 
   const scrollToSection = (id: string) => {
