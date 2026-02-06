@@ -201,21 +201,27 @@ const Index = () => {
           </p>
 
           <div className="bg-background rounded-xl p-8 shadow-sm mb-8">
-            <div className="space-y-4 max-w-3xl mx-auto">
-              <div className="flex items-start gap-3">
-                <span className="text-primary text-xl">✅</span>
+            <div className="space-y-5 max-w-3xl mx-auto">
+              <div className="flex items-start gap-4">
+                <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <Leaf className="h-4 w-4 text-primary" />
+                </div>
                 <p className="text-foreground">
                   Freshly prepared food with no pre-cut vegetables kept overnight
                 </p>
               </div>
-              <div className="flex items-start gap-3">
-                <span className="text-primary text-xl">✅</span>
+              <div className="flex items-start gap-4">
+                <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <Heart className="h-4 w-4 text-primary" />
+                </div>
                 <p className="text-foreground">
                   Any unsold food is responsibly donated
                 </p>
               </div>
-              <div className="flex items-start gap-3">
-                <span className="text-primary text-xl">✅</span>
+              <div className="flex items-start gap-4">
+                <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <ShieldCheck className="h-4 w-4 text-primary" />
+                </div>
                 <p className="text-foreground">
                   Order directly from us (no delivery partners involved), so we can offer better pricing for bulk and corporate orders
                 </p>
