@@ -47,7 +47,6 @@ import sourCreamLabTest from "@/assets/sour-cream-lab-test.png";
 import guacamole from "@/assets/guacamole.jpeg";
 import guacamoleLabTest from "@/assets/guacamole-lab-test.png";
 import cornSalsa from "@/assets/corn-salsa.jpeg";
-import cornSalsaLabTest from "@/assets/corn-salsa-lab-test.png";
 import paneerTikkaWrap from "@/assets/paneer-tikka-wrap.jpeg";
 import panerrTikkaWrapLabTest from "@/assets/paneer-tikka-wrap-lab-test.png";
 import periPeriPotatoWrap from "@/assets/peri-peri-potato-wrap.png";
