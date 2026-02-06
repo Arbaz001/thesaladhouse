@@ -277,7 +277,7 @@ export const menuData: MenuCategory[] = [
         name: "Corn Salsa", 
         description: "Fresh and zesty Corn Salsa made with sweet American corn, crunchy onions, and fresh coriander — perfectly balanced with tang, mild spice, and freshness (280 Gms). Made fresh daily. Zero frozen ingredients. No leftover pre-cut veggies from previous days. Unsold food is responsibly donated every day.",
         price: 129, 
-        image: [cornSalsa, cornSalsaLabTest]
+        image:cornSalsa
       },
     ],
   },
