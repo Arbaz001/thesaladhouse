@@ -11,6 +11,7 @@ const Header = () => {
     { id: "menu", label: "Menu" },
     { id: "philosophy", label: "Our Food Philosophy" },
     { id: "gallery", label: "Photo Gallery" },
+    { id: "corporate", label: "Corporate Orders" },
     { id: "visit", label: "Visit Us" },
   ];
 
