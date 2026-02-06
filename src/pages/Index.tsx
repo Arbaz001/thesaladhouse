@@ -195,10 +195,9 @@ const Index = () => {
       {/* Corporate Orders Section */}
       <section id="corporate" className="pt-4 md:pt-12 pb-4 md:pb-8 bg-secondary/20">
         <div className="max-w-6xl mx-auto px-4">
-          <h1 className="text-5xl md:text-6xl font-bold text-primary mb-4 text-center">Corporate Lunch & Dinner Bulk Orders</h1>
+          <h1 className="text-5xl md:text-6xl font-bold text-primary mb-4 text-center">Corporate Orders</h1>
           <p className="text-lg text-muted-foreground text-center mb-8 max-w-3xl mx-auto">
-            Planning a team lunch, meeting, or corporate dinner?<br />
-            The Salad House offers fresh, wholesome meals made daily—perfect for offices, teams, and corporate gatherings.
+            We make fresh, wholesome meals every day—ideal for office teams and corporate gatherings.
           </p>
 
           <div className="bg-background rounded-xl p-8 shadow-sm mb-8">
@@ -206,20 +205,26 @@ const Index = () => {
               <div className="flex items-start gap-3">
                 <span className="text-primary text-xl">✅</span>
                 <p className="text-foreground">
-                  Freshly prepared food with no pre-cut vegetables sitting overnight; any leftover food is responsibly donated
+                  Freshly prepared food with no pre-cut vegetables kept overnight
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-primary text-xl">✅</span>
                 <p className="text-foreground">
-                  Direct ordering with no delivery partner in between, allowing us to offer better pricing for corporate and bulk orders
+                  Any unsold food is responsibly donated
+                </p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-primary text-xl">✅</span>
+                <p className="text-foreground">
+                  Order directly from us (no delivery partners involved), so we can offer better pricing for bulk and corporate orders
                 </p>
               </div>
             </div>
           </div>
 
           <p className="text-center text-foreground mb-8 max-w-2xl mx-auto">
-            Place your order directly with us, and we'll take care of everything—from preparation to delivery—while offering better value to your team.
+            Place your order with us, and we'll take care of everything—from the kitchen to delivery—making it smooth and hassle-free for you.
           </p>
 
           <div className="bg-background rounded-xl p-8 shadow-sm text-center">
