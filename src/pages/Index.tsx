@@ -230,7 +230,7 @@ const Index = () => {
           </div>
 
           <p className="text-center text-foreground mb-8 max-w-2xl mx-auto">
-            Place your order with us, and we'll take care of everything—from the kitchen to delivery—making it smooth and hassle-free for you.
+            Place your order with us, and we'll take care of everything.
           </p>
 
           <div className="bg-background rounded-xl p-8 shadow-sm text-center">
