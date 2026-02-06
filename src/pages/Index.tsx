@@ -195,54 +195,49 @@ const Index = () => {
       {/* Corporate Orders Section */}
       <section id="corporate" className="pt-4 md:pt-12 pb-4 md:pb-8 bg-secondary/20">
         <div className="max-w-6xl mx-auto px-4">
-          <h1 className="text-5xl md:text-6xl font-bold text-primary mb-4 text-center">Corporate Orders</h1>
-          <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-            Healthy meals for your team, meetings, and corporate events. Fresh, nutritious, and hassle-free catering solutions.
+          <h1 className="text-5xl md:text-6xl font-bold text-primary mb-4 text-center">Corporate Lunch & Dinner Bulk Orders</h1>
+          <p className="text-lg text-muted-foreground text-center mb-8 max-w-3xl mx-auto">
+            Planning a team lunch, meeting, or corporate dinner?<br />
+            The Salad House offers fresh, wholesome meals made daily—perfect for offices, teams, and corporate gatherings.
           </p>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="text-center p-6 bg-background rounded-xl shadow-sm">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Leaf className="h-8 w-8 text-primary" />
+          <div className="bg-background rounded-xl p-8 shadow-sm mb-8">
+            <div className="space-y-4 max-w-3xl mx-auto">
+              <div className="flex items-start gap-3">
+                <span className="text-primary text-xl">✅</span>
+                <p className="text-foreground">
+                  Freshly prepared food with no pre-cut vegetables sitting overnight; any leftover food is responsibly donated
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-primary">Office Lunch</h3>
-              <p className="text-foreground">
-                Daily healthy lunch options for your team. Customizable menus to suit diverse dietary preferences.
-              </p>
-            </div>
-            
-            <div className="text-center p-6 bg-background rounded-xl shadow-sm">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Heart className="h-8 w-8 text-primary" />
+              <div className="flex items-start gap-3">
+                <span className="text-primary text-xl">✅</span>
+                <p className="text-foreground">
+                  Direct ordering with no delivery partner in between, allowing us to offer better pricing for corporate and bulk orders
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-primary">Meeting Catering</h3>
-              <p className="text-foreground">
-                Impress clients and colleagues with fresh, wholesome spreads for your important meetings and presentations.
-              </p>
-            </div>
-            
-            <div className="text-center p-6 bg-background rounded-xl shadow-sm">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <ShieldCheck className="h-8 w-8 text-primary" />
-              </div>
-              <h3 className="text-xl font-semibold mb-3 text-primary">Corporate Events</h3>
-              <p className="text-foreground">
-                From team celebrations to large-scale events, we deliver fresh and delicious food that everyone will love.
-              </p>
             </div>
           </div>
 
+          <p className="text-center text-foreground mb-8 max-w-2xl mx-auto">
+            Place your order directly with us, and we'll take care of everything—from preparation to delivery—while offering better value to your team.
+          </p>
+
           <div className="bg-background rounded-xl p-8 shadow-sm text-center">
-            <h3 className="text-2xl font-semibold text-primary mb-4">Get in Touch for Bulk Orders</h3>
-            <p className="text-foreground mb-6 max-w-xl mx-auto">
-              Contact us to discuss your corporate catering needs. We offer flexible packages, timely delivery, and special rates for regular orders.
-            </p>
-            <a 
-              href="tel:+919876543210" 
-              className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
-            >
-              Call Us to Order
-            </a>
+            <h3 className="text-2xl font-semibold text-primary mb-4">For Orders & Enquiries</h3>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a 
+                href="tel:+919910074374" 
+                className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+              >
+                📞 Call or WhatsApp: +91 99100 74374
+              </a>
+              <a 
+                href="mailto:divya@thesaladhouse.co" 
+                className="inline-flex items-center gap-2 bg-secondary text-foreground px-6 py-3 rounded-lg font-semibold hover:bg-secondary/80 transition-colors"
+              >
+                📧 divya@thesaladhouse.co
+              </a>
+            </div>
           </div>
         </div>
       </section>
