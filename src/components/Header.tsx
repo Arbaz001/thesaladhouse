@@ -56,14 +56,12 @@ const Header = () => {
 
           {/* Mobile: Buy Avocado + Menu Button */}
           <div className="md:hidden flex items-center gap-2">
-            <a
-              href="https://wa.me/919910074374?text=Hi%2C%20I%27d%20like%20to%20order%20avocados"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/buy-avocado"
               className="px-4 py-2 text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm"
             >
               🥑 Buy Avocado
-            </a>
+            </Link>
             <button
               className="text-gray-800 hover:text-primary transition-colors p-2 hover:bg-gray-100 rounded-full"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
