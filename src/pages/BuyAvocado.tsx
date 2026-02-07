@@ -6,8 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const BuyAvocado = () => {
-  const whatsappLink =
-    "https://wa.me/919910074374?text=Hi%2C%20I%27d%20like%20to%20order%20avocados";
+  const whatsappLink = "https://wa.me/919910074374?text=Hi%2C%20I%27d%20like%20to%20order%20avocados";
 
   return (
     <div className="min-h-screen">
@@ -28,39 +27,27 @@ const BuyAvocado = () => {
           <div className="grid md:grid-cols-2 gap-8 lg:gap-14">
             {/* Product Image */}
             <div className="rounded-2xl overflow-hidden bg-secondary/20 border border-border">
-              <img
-                src={avocadoProduct}
-                alt="Fresh Hass Avocado"
-                className="w-full h-full object-cover aspect-square"
-              />
+              <img src={avocadoProduct} alt="Fresh Hass Avocado" className="w-full h-full object-cover aspect-square" />
             </div>
 
             {/* Product Info */}
             <div className="flex flex-col justify-center">
-              <span className="text-xs font-bold uppercase tracking-widest text-accent mb-3">
-                Fresh Produce
-              </span>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">
-                Fresh Hass Avocados
-              </h1>
+              <span className="text-xs font-bold uppercase tracking-widest text-accent mb-3">Fresh Produce</span>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">Fresh Hass Avocados</h1>
 
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Premium, hand-picked Hass avocados — creamy, rich, and perfectly
-                ripe. Sourced directly and delivered fresh to your doorstep.
-                Ideal for guacamole, salads, toast, smoothies, and more.
+                Premium, hand-picked Hass avocados — creamy, rich, and perfectly ripe. Sourced directly and delivered
+                fresh to your doorstep. Ideal for guacamole, salads, toast, smoothies, and more.
               </p>
 
               <div className="flex items-baseline gap-3 mb-8">
-                <span className="text-4xl font-bold text-foreground">₹350</span>
+                <span className="text-4xl font-bold text-foreground">₹1000</span>
                 <span className="text-muted-foreground text-sm">per kg (approx. 3–4 avocados)</span>
               </div>
 
               {/* CTA */}
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-                <Button
-                  size="lg"
-                  className="w-full md:w-auto text-base px-10 py-6 rounded-full font-bold gap-3"
-                >
+                <Button size="lg" className="w-full md:w-auto text-base px-10 py-6 rounded-full font-bold gap-3">
                   <MessageCircle className="h-5 w-5" />
                   Order on WhatsApp
                 </Button>
@@ -92,9 +79,7 @@ const BuyAvocado = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Delivered to You</h3>
-                <p className="text-sm text-muted-foreground">
-                  We deliver across Delhi NCR. Bulk orders welcome.
-                </p>
+                <p className="text-sm text-muted-foreground">We deliver across Delhi NCR. Bulk orders welcome.</p>
               </div>
             </div>
 
@@ -113,37 +98,27 @@ const BuyAvocado = () => {
 
           {/* Additional Info */}
           <div className="mt-16 bg-secondary/20 rounded-2xl p-8 md:p-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4 text-center">
-              Why Our Avocados?
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4 text-center">Why Our Avocados?</h2>
             <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
-              We source the same premium avocados that go into our famous
-              guacamole and salad bowls — now available for you to enjoy at home.
+              We source the same premium avocados that go into our famous guacamole and salad bowls — now available for
+              you to enjoy at home.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div className="p-4">
                 <p className="text-foreground">
-                  <span className="font-semibold text-primary block mb-2">
-                    Perfectly Ripe
-                  </span>
-                  Each avocado is checked for ripeness so it's ready to eat when
-                  it reaches you.
+                  <span className="font-semibold text-primary block mb-2">Perfectly Ripe</span>
+                  Each avocado is checked for ripeness so it's ready to eat when it reaches you.
                 </p>
               </div>
               <div className="p-4">
                 <p className="text-foreground">
-                  <span className="font-semibold text-primary block mb-2">
-                    Bulk Friendly
-                  </span>
-                  Ordering for a party or café? Get in touch for special bulk
-                  pricing.
+                  <span className="font-semibold text-primary block mb-2">Bulk Friendly</span>
+                  Ordering for a party or café? Get in touch for special bulk pricing.
                 </p>
               </div>
               <div className="p-4">
                 <p className="text-foreground">
-                  <span className="font-semibold text-primary block mb-2">
-                    Quick Support
-                  </span>
+                  <span className="font-semibold text-primary block mb-2">Quick Support</span>
                   Have questions? Chat with us directly on WhatsApp — we respond fast.
                 </p>
               </div>
