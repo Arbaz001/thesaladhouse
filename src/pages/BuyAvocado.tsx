@@ -33,7 +33,7 @@ const BuyAvocado = () => {
             {/* Product Info */}
             <div className="flex flex-col justify-center">
               <span className="text-xs font-bold uppercase tracking-widest text-accent mb-3">Fresh Produce</span>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">Fresh Hass Avocados</h1>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">Fresh, Ripe Avocados</h1>
 
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                 Premium, hand-picked Hass avocados — creamy, rich, and perfectly ripe. Sourced directly and delivered
