@@ -63,6 +63,17 @@ const BuyAvocado = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-16">
             <div className="flex items-start gap-4 p-5 bg-secondary/20 rounded-xl">
               <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                <ShieldCheck className="h-5 w-5 text-primary" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-foreground mb-1">Trusted Source</h3>
+                <p className="text-sm text-muted-foreground">
+                  From The Salad House — the same avocados we use in our kitchen.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4 p-5 bg-secondary/20 rounded-xl">
+              <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
                 <Leaf className="h-5 w-5 text-primary" />
               </div>
               <div>
@@ -82,26 +93,14 @@ const BuyAvocado = () => {
                 <p className="text-sm text-muted-foreground">We deliver across Delhi NCR. Bulk orders welcome.</p>
               </div>
             </div>
-
-            <div className="flex items-start gap-4 p-5 bg-secondary/20 rounded-xl">
-              <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
-                <ShieldCheck className="h-5 w-5 text-primary" />
-              </div>
-              <div>
-                <h3 className="font-semibold text-foreground mb-1">Trusted Source</h3>
-                <p className="text-sm text-muted-foreground">
-                  From The Salad House — the same avocados we use in our kitchen.
-                </p>
-              </div>
-            </div>
           </div>
 
           {/* Additional Info */}
           <div className="mt-16 bg-secondary/20 rounded-2xl p-8 md:p-12">
             <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4 text-center">Why Our Avocados?</h2>
             <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
-              We source the same premium avocados that go into our famous guacamole and salad bowls — now available for
-              you to enjoy at home.
+              We source the same premium avocados that go into our guacamole and salad bowls — now available for you to
+              enjoy at home.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div className="p-4">
