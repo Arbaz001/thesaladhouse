@@ -42,7 +42,7 @@ const BuyAvocado = () => {
 
               <div className="flex items-baseline gap-3 mb-8">
                 <span className="text-4xl font-bold text-foreground">₹1000</span>
-                <span className="text-muted-foreground text-sm">per kg (approx. 3–4 avocados)</span>
+                <span className="text-muted-foreground text-sm">per kg (approx. 4–5 avocados)</span>
               </div>
 
               {/* CTA */}
