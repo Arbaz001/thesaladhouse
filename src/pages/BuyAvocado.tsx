@@ -37,11 +37,11 @@ const BuyAvocado = () => {
 
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                 Premium, hand-picked Hass avocados — creamy, rich, and perfectly ripe. Sourced directly and delivered
-                fresh to your doorstep. Ideal for guacamole, salads, toast, smoothies, and more.
+                fresh to your doorstep. Ideal for guacamole, salads, toast, smoothies, and more. Order As Per Actual.
               </p>
 
               <div className="flex items-baseline gap-3 mb-8">
-                <span className="text-4xl font-bold text-foreground">₹1,000</span>
+                <span className="text-4xl font-bold text-foreground">₹999</span>
                 <span className="text-muted-foreground text-sm">per kg (approx. 4–5 avocados)</span>
               </div>
 
