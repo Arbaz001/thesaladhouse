@@ -33,17 +33,6 @@ const BuyMicrogreens = () => {
                 alt="Fresh Microgreens Pack of 5 - Amaranthus, Bok Choy, Broccoli, White Radish, Millet"
                 className="w-full h-full object-contain"
               />
-              {/* Variety labels overlay */}
-              <div className="absolute right-3 sm:right-5 top-0 bottom-0 flex flex-col justify-around py-[4%] pointer-events-none">
-                {["Amaranthus", "Bok Choy", "Broccoli", "White Radish", "Millet"].map((name) => (
-                  <span
-                    key={name}
-                    className="bg-white/90 backdrop-blur-sm text-foreground text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full shadow-sm"
-                  >
-                    {name}
-                  </span>
-                ))}
-              </div>
             </div>
 
             {/* Product Info */}
