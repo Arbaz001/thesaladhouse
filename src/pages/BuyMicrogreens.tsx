@@ -27,22 +27,26 @@ const BuyMicrogreens = () => {
           {/* Product Section */}
           <div className="grid md:grid-cols-2 gap-8 lg:gap-14">
             {/* Single Stacked Product Image with Labels */}
-            <div className="relative rounded-2xl overflow-hidden bg-white border border-border">
+            <div className="relative rounded-2xl overflow-hidden bg-white border border-border max-h-[500px]">
               <img
                 src={microgreensStacked}
                 alt="Fresh Microgreens Pack of 5"
-                className="w-full h-auto max-h-[400px] sm:max-h-[450px] md:max-h-[500px] object-contain mx-auto"
+                className="w-full h-full object-cover object-top"
               />
             </div>
 
             {/* Product Info */}
             <div className="flex flex-col justify-center">
               <span className="text-xs font-bold uppercase tracking-widest text-accent mb-3">Fresh Produce</span>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">Fresh Microgreens – Pack of 5</h1>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">
+                Fresh Microgreens – Pack of 5
+              </h1>
 
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Nutrient-dense, farm-fresh microgreens — packed with vitamins and bursting with flavour. Harvested to order
-                and delivered live, so you get the freshest greens possible. Perfect for salads, sandwiches, smoothies, and garnishes.
+                The same fresh, nutrient-dense microgreens we use every day in The Salad House kitchen. Carefully
+                sourced and delivered fresh, these greens are packed with flavour and nutrients, making them a great
+                addition to salads, sandwiches, smoothies, and garnishes Clean, fresh, and thoughtfully selected—so you
+                know exactly what’s going into your food.
               </p>
 
               <div className="flex items-baseline gap-3 mb-8">
@@ -101,7 +105,8 @@ const BuyMicrogreens = () => {
           <div className="mt-16 bg-secondary/20 rounded-2xl p-8 md:p-12">
             <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4 text-center">Why Microgreens?</h2>
             <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Microgreens contain up to 40x more nutrients than their mature counterparts. A tiny superfood with a mighty punch.
+              Microgreens contain up to 40x more nutrients than their mature counterparts. A tiny superfood with a
+              mighty punch.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div className="p-4">
