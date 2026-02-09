@@ -80,9 +80,9 @@ const BuyMicrogreens = () => {
                 <Sprout className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-1">Harvested to Order</h3>
+                <h3 className="font-semibold text-foreground mb-1">Trusted Source</h3>
                 <p className="text-sm text-muted-foreground">
-                  Cut fresh on the day of delivery for maximum nutrition and taste.
+                  From The Salad House — the same microgreens we use in our kitchen.
                 </p>
               </div>
             </div>
