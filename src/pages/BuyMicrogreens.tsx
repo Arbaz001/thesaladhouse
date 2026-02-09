@@ -38,7 +38,7 @@ const BuyMicrogreens = () => {
             {/* Product Info */}
             <div className="flex flex-col justify-center">
               <span className="text-xs font-bold uppercase tracking-widest text-accent mb-3">Fresh Produce</span>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">Fresh Microgreens</h1>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">Fresh Microgreens – Pack of 5</h1>
 
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                 Nutrient-dense, farm-fresh microgreens — packed with vitamins and bursting with flavour. Harvested to order
@@ -46,8 +46,8 @@ const BuyMicrogreens = () => {
               </p>
 
               <div className="flex items-baseline gap-3 mb-8">
-                <span className="text-4xl font-bold text-foreground">₹149</span>
-                <span className="text-muted-foreground text-sm">per 50g tray (living microgreens)</span>
+                <span className="text-4xl font-bold text-foreground">₹999</span>
+                <span className="text-muted-foreground text-sm">50–60 gms per tray</span>
               </div>
 
               {/* CTA */}
