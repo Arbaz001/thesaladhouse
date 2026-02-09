@@ -26,13 +26,24 @@ const BuyMicrogreens = () => {
 
           {/* Product Section */}
           <div className="grid md:grid-cols-2 gap-8 lg:gap-14">
-            {/* Single Product Image */}
-            <div className="rounded-2xl overflow-hidden bg-secondary/20 border border-border">
+            {/* Single Product Image with Labels */}
+            <div className="relative rounded-2xl overflow-hidden bg-secondary/20 border border-border">
               <img
                 src={microgreensProduct}
-                alt="Fresh Microgreens in Tray"
+                alt="Fresh Microgreens Pack of 5 - Amaranthus, Bok Choy, Broccoli, White Radish, Millet"
                 className="w-full h-full object-cover aspect-square"
               />
+              {/* Variety labels overlay */}
+              <div className="absolute right-3 top-0 bottom-0 flex flex-col justify-around py-[8%] pointer-events-none">
+                {["Amaranthus", "Bok Choy", "Broccoli", "White Radish", "Millet"].map((name) => (
+                  <span
+                    key={name}
+                    className="bg-white/90 backdrop-blur-sm text-foreground text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full shadow-sm"
+                  >
+                    {name}
+                  </span>
+                ))}
+              </div>
             </div>
 
             {/* Product Info */}
