@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-import microgreensStacked from "@/assets/microgreens-stacked.jpg";
+import microgreensStacked from "@/assets/microgreens-product-new.png";
 
 const BuyMicrogreens = () => {
   const whatsappLink = "https://wa.me/919910074374?text=Hi%2C%20I%27d%20like%20to%20order%20microgreens";
