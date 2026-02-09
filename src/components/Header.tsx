@@ -35,8 +35,8 @@ const Header = () => {
             <Leaf className="h-6 w-6 md:h-7 md:w-7 text-primary" />
           </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-2">
+          {/* Desktop Navigation - only show on large screens */}
+          <nav className="hidden lg:flex items-center gap-2">
             {navLinks.map((link) => (
               <button
                 key={link.id}
@@ -61,8 +61,8 @@ const Header = () => {
             </Link>
           </nav>
 
-          {/* Mobile: Buy Avocado + Menu Button */}
-          <div className="md:hidden flex items-center gap-2">
+          {/* Mobile & Tablet: Buy Avocado + Buy Microgreens + Menu Button */}
+          <div className="lg:hidden flex items-center gap-2">
             <Link
               to="/buy-avocado"
               className="px-3 py-2 text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm"
@@ -74,10 +74,10 @@ const Header = () => {
               className="px-2.5 py-1.5 text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm flex items-center gap-1"
             >
               <Sprout className="h-4 w-4" />
-              Microgreens
+              <span className="hidden sm:inline">Microgreens</span>
             </Link>
             <button
-              className="text-gray-800 hover:text-primary transition-colors p-2 hover:bg-gray-100 rounded-full"
+              className="text-foreground hover:text-primary transition-colors p-2 hover:bg-secondary rounded-full"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle menu"
             >
@@ -91,15 +91,15 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation Dropdown */}
+      {/* Mobile & Tablet Navigation Dropdown */}
       {mobileMenuOpen && (
-        <div className="md:hidden mx-4 mt-2 bg-white backdrop-blur-md border border-gray-200 rounded-2xl overflow-hidden">
+        <div className="lg:hidden mx-4 mt-2 bg-background backdrop-blur-md border border-border rounded-2xl overflow-hidden">
           <nav className="flex flex-col p-3 gap-1">
             {navLinks.map((link) => (
               <button
                 key={link.id}
                 onClick={() => scrollToSection(link.id)}
-                className="w-full text-left px-4 py-3 text-sm font-semibold text-gray-800 hover:bg-gray-100 hover:text-primary transition-all duration-200 rounded-lg"
+                className="w-full text-left px-4 py-3 text-sm font-semibold text-foreground hover:bg-secondary hover:text-primary transition-all duration-200 rounded-lg"
               >
                 {link.label}
               </button>
