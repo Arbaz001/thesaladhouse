@@ -2,6 +2,7 @@ import { Leaf, Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
+import microgreensMascot from "@/assets/microgreens-mascot.png";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -54,9 +55,10 @@ const Header = () => {
             </Link>
             <Link
               to="/buy-microgreens"
-              className="px-5 py-2 text-sm font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm"
+              className="px-4 py-1.5 text-sm font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm flex items-center gap-2"
             >
-              🌱 Buy Microgreens
+              <img src={microgreensMascot} alt="" className="h-7 w-7 rounded-full object-cover" />
+              Buy Microgreens
             </Link>
           </nav>
 
@@ -70,9 +72,10 @@ const Header = () => {
             </Link>
             <Link
               to="/buy-microgreens"
-              className="px-3 py-2 text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm"
+              className="px-2.5 py-1.5 text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm flex items-center gap-1"
             >
-              🌱 Microgreens
+              <img src={microgreensMascot} alt="" className="h-5 w-5 rounded-full object-cover" />
+              Microgreens
             </Link>
             <button
               className="text-gray-800 hover:text-primary transition-colors p-2 hover:bg-gray-100 rounded-full"
