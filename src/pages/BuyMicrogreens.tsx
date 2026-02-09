@@ -116,9 +116,8 @@ const BuyMicrogreens = () => {
               </div>
               <div className="p-4">
                 <p className="text-foreground">
-                  <span className="font-semibold text-primary block mb-2">Variety Packs</span>
-                  Choose from sunflower, radish, broccoli, pea shoots, amaranthus, bok choy, mustard, kale, beetroot,
-                  fenugreek, coriander, and other seasonal microgreen mixes, depending on availability.
+                  <span className="font-semibold text-primary block mb-2">Variety Packs</span>A selection of sunflower,
+                  radish, broccoli, pea shoots, and seasonal microgreens, based on availability.
                 </p>
               </div>
               <div className="p-4">
