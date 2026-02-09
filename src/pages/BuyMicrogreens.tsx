@@ -1,9 +1,10 @@
-import { ArrowLeft, Leaf, ShieldCheck, Truck, MessageCircle, Sprout } from "lucide-react";
+import { ArrowLeft, Leaf, Truck, MessageCircle, Sprout } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import microgreensProduct from "@/assets/microgreens-product.jpg";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
+import microgreensStacked from "@/assets/microgreens-product-new.png";
 
 const BuyMicrogreens = () => {
   const whatsappLink = "https://wa.me/919910074374?text=Hi%2C%20I%27d%20like%20to%20order%20microgreens";
@@ -25,29 +26,28 @@ const BuyMicrogreens = () => {
 
           {/* Product Section */}
           <div className="grid md:grid-cols-2 gap-8 lg:gap-14">
-            {/* Product Image */}
-            <div className="rounded-2xl overflow-hidden bg-secondary/20 border border-border">
+            {/* Single Stacked Product Image with Labels */}
+            <div className="relative rounded-2xl overflow-hidden bg-white border border-border">
               <img
-                src={microgreensProduct}
-                alt="Fresh Microgreens"
-                className="w-full h-full object-cover aspect-square"
+                src={microgreensStacked}
+                alt="Fresh Microgreens Pack of 5 - Amaranthus, Bok Choy, Broccoli, White Radish, Millet"
+                className="w-full h-full object-contain"
               />
             </div>
 
             {/* Product Info */}
             <div className="flex flex-col justify-center">
               <span className="text-xs font-bold uppercase tracking-widest text-accent mb-3">Fresh Produce</span>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">Fresh Microgreens</h1>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">Fresh Microgreens – Pack of 5</h1>
 
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Nutrient-dense, farm-fresh microgreens — packed with vitamins and bursting with flavour. Harvested to
-                order and delivered live, so you get the freshest greens possible. Perfect for salads, sandwiches,
-                smoothies, and garnishes.
+                Nutrient-dense, farm-fresh microgreens — packed with vitamins and bursting with flavour. Harvested to order
+                and delivered live, so you get the freshest greens possible. Perfect for salads, sandwiches, smoothies, and garnishes.
               </p>
 
               <div className="flex items-baseline gap-3 mb-8">
-                <span className="text-4xl font-bold text-foreground">₹149</span>
-                <span className="text-muted-foreground text-sm">per 50g tray (living microgreens)</span>
+                <span className="text-4xl font-bold text-foreground">₹999</span>
+                <span className="text-muted-foreground text-sm">50–60 gms per tray</span>
               </div>
 
               {/* CTA */}
@@ -69,9 +69,9 @@ const BuyMicrogreens = () => {
                 <Sprout className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-1">Harvested to Order</h3>
+                <h3 className="font-semibold text-foreground mb-1">Trusted Source</h3>
                 <p className="text-sm text-muted-foreground">
-                  Cut fresh on the day of delivery for maximum nutrition and taste.
+                  From The Salad House — the same microgreens we use in our kitchen.
                 </p>
               </div>
             </div>
@@ -80,9 +80,9 @@ const BuyMicrogreens = () => {
                 <Leaf className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-1">100% Organic</h3>
+                <h3 className="font-semibold text-foreground mb-1">Non-GMO & Clean-Grown</h3>
                 <p className="text-sm text-muted-foreground">
-                  Grown without pesticides or chemicals. Pure, clean greens.
+                  Grown in a controlled, chemical-free environment for purity and flavor.
                 </p>
               </div>
             </div>
@@ -101,8 +101,7 @@ const BuyMicrogreens = () => {
           <div className="mt-16 bg-secondary/20 rounded-2xl p-8 md:p-12">
             <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4 text-center">Why Microgreens?</h2>
             <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Microgreens contain up to 40x more nutrients than their mature counterparts. A tiny superfood with a
-              mighty punch.
+              Microgreens contain up to 40x more nutrients than their mature counterparts. A tiny superfood with a mighty punch.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div className="p-4">
