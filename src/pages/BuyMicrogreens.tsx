@@ -27,11 +27,11 @@ const BuyMicrogreens = () => {
           {/* Product Section */}
           <div className="grid md:grid-cols-2 gap-8 lg:gap-14">
             {/* Single Stacked Product Image with Labels */}
-            <div className="relative rounded-2xl overflow-hidden bg-white border border-border h-[350px] sm:h-[400px] md:h-[450px] lg:h-[500px]">
+            <div className="relative rounded-2xl overflow-hidden bg-white border border-border">
               <img
                 src={microgreensStacked}
                 alt="Fresh Microgreens Pack of 5"
-                className="w-full h-full object-cover object-center"
+                className="w-full h-auto max-h-[400px] sm:max-h-[450px] md:max-h-[500px] object-contain mx-auto"
               />
             </div>
 
