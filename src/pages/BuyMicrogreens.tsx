@@ -27,12 +27,8 @@ const BuyMicrogreens = () => {
           {/* Product Section */}
           <div className="grid md:grid-cols-2 gap-8 lg:gap-14">
             {/* Single Stacked Product Image with Labels */}
-            <div className="relative rounded-2xl overflow-hidden bg-white border border-border flex items-center justify-center">
-              <img
-                src={microgreensStacked}
-                alt="Fresh Microgreens Pack of 5"
-                className="w-full h-auto object-contain"
-              />
+            <div className="relative rounded-2xl overflow-hidden bg-white border border-border">
+              <img src={microgreensStacked} alt="Fresh Microgreens Pack of 5" className="w-full object-cover" />
             </div>
 
             {/* Product Info */}
@@ -116,8 +112,8 @@ const BuyMicrogreens = () => {
               </div>
               <div className="p-4">
                 <p className="text-foreground">
-                  <span className="font-semibold text-primary block mb-2">Variety Packs</span>A selection of sunflower,
-                  radish, broccoli, pea shoots, and seasonal microgreens, based on availability.
+                  <span className="font-semibold text-primary block mb-2">Variety Packs</span>
+                  Choose from sunflower, radish, broccoli, pea shoots, and seasonal mixes.
                 </p>
               </div>
               <div className="p-4">
