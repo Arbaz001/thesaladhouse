@@ -69,19 +69,19 @@ const Header = () => {
           </nav>
 
           {/* Mobile & Tablet: Buy Avocado + Buy Microgreens + Menu Button */}
-          <div className="lg:hidden flex items-center gap-2">
+          <div className="lg:hidden flex items-center gap-1 sm:gap-2">
             <Link
               to="/buy-avocado"
-              className="px-3 py-2 text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm"
+              className="px-2.5 sm:px-3 py-1.5 sm:py-2 text-[10px] sm:text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm flex items-center gap-1"
             >
-              🥑 Avocado
+              🥑 <span className="hidden xs:inline">Buy </span>Avocado
             </Link>
             <Link
               to="/buy-microgreens"
-              className="px-2.5 py-1.5 text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm flex items-center gap-1"
+              className="px-2.5 sm:px-3 py-1.5 sm:py-2 text-[10px] sm:text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm flex items-center gap-1"
             >
-              <Sprout className="h-4 w-4" />
-              <span className="hidden sm:inline">Microgreens</span>
+              <Sprout className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+              <span className="hidden xs:inline">Buy </span>Microgreens
             </Link>
             <button
               className="text-foreground hover:text-primary transition-colors p-2 hover:bg-secondary rounded-full"
