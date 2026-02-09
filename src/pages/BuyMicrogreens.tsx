@@ -27,11 +27,11 @@ const BuyMicrogreens = () => {
           {/* Product Section */}
           <div className="grid md:grid-cols-2 gap-8 lg:gap-14">
             {/* Single Stacked Product Image with Labels */}
-            <div className="relative rounded-2xl overflow-hidden bg-white border border-border">
+            <div className="relative rounded-2xl overflow-hidden bg-white border border-border max-h-[500px]">
               <img
                 src={microgreensStacked}
                 alt="Fresh Microgreens Pack of 5"
-                className="w-full h-auto max-h-[400px] sm:max-h-[500px] lg:max-h-[600px] object-contain mx-auto"
+                className="w-full h-full object-cover object-top"
               />
             </div>
 
@@ -43,10 +43,9 @@ const BuyMicrogreens = () => {
               </h1>
 
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                The same fresh, nutrient-dense microgreens we use every day in The Salad House kitchen. Carefully
-                sourced and delivered fresh, these greens are packed with flavour and nutrients, making them a great
-                addition to salads, sandwiches, smoothies, and garnishes Clean, fresh, and thoughtfully selected—so you
-                know exactly what’s going into your food.
+                Nutrient-dense, farm-fresh microgreens — packed with vitamins and bursting with flavour. Harvested to
+                order and delivered live, so you get the freshest greens possible. Perfect for salads, sandwiches,
+                smoothies, and garnishes.
               </p>
 
               <div className="flex items-baseline gap-3 mb-8">
@@ -118,7 +117,8 @@ const BuyMicrogreens = () => {
               <div className="p-4">
                 <p className="text-foreground">
                   <span className="font-semibold text-primary block mb-2">Variety Packs</span>
-                  Choose from sunflower, radish, broccoli, pea shoots, and seasonal mixes.
+                  Choose from sunflower, radish, broccoli, pea shoots, amaranthus, bok choy, mustard, kale, beetroot,
+                  fenugreek, coriander, and other seasonal microgreen mixes, depending on availability.
                 </p>
               </div>
               <div className="p-4">
