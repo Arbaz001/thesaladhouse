@@ -1,4 +1,5 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Menu from "@/components/Menu";
@@ -31,6 +32,21 @@ const galleryImages = [
 const Index = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const location = useLocation();
+
+  // Handle scroll to section when navigating from other pages
+  useEffect(() => {
+    if (location.state?.scrollTo) {
+      const element = document.getElementById(location.state.scrollTo);
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+      }
+      // Clear the state so it doesn't scroll again on refresh
+      window.history.replaceState({}, document.title);
+    }
+  }, [location.state]);
 
   const openLightbox = (index: number) => {
     setCurrentIndex(index);
