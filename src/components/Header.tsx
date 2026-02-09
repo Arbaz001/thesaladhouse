@@ -1,8 +1,7 @@
-import { Leaf, Menu, X } from "lucide-react";
+import { Leaf, Menu, X, Sprout } from "lucide-react";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
-import microgreensProduct from "@/assets/microgreens-product.jpg";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -57,7 +56,7 @@ const Header = () => {
               to="/buy-microgreens"
               className="px-4 py-1.5 text-sm font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm flex items-center gap-2"
             >
-              <img src={microgreensProduct} alt="" className="h-7 w-7 rounded-full object-cover" />
+              <Sprout className="h-4 w-4" />
               Buy Microgreens
             </Link>
           </nav>
@@ -74,7 +73,7 @@ const Header = () => {
               to="/buy-microgreens"
               className="px-2.5 py-1.5 text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm flex items-center gap-1"
             >
-              <img src={microgreensProduct} alt="" className="h-5 w-5 rounded-full object-cover" />
+              <Sprout className="h-4 w-4" />
               Microgreens
             </Link>
             <button
