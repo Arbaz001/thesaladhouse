@@ -1,12 +1,41 @@
-import { ArrowLeft, Leaf, ShieldCheck, Truck, MessageCircle, Sprout } from "lucide-react";
+import { ArrowLeft, Leaf, Truck, MessageCircle, Sprout } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useState, useEffect, useCallback } from "react";
 import { Button } from "@/components/ui/button";
-import microgreensProduct from "@/assets/microgreens-product.jpg";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+import microgreensProduct from "@/assets/microgreens-product.jpg";
+import microgreensSunflower from "@/assets/microgreens-sunflower.jpg";
+import microgreensRadish from "@/assets/microgreens-radish.jpg";
+import microgreensBroccoli from "@/assets/microgreens-broccoli.jpg";
+import microgreensPeaShoots from "@/assets/microgreens-pea-shoots.jpg";
+
+const productImages = [
+  { src: microgreensProduct, label: "Fresh Microgreens" },
+  { src: microgreensSunflower, label: "Sunflower Microgreens" },
+  { src: microgreensRadish, label: "Radish Microgreens" },
+  { src: microgreensBroccoli, label: "Broccoli Microgreens" },
+  { src: microgreensPeaShoots, label: "Pea Shoot Microgreens" },
+];
+
 const BuyMicrogreens = () => {
   const whatsappLink = "https://wa.me/919910074374?text=Hi%2C%20I%27d%20like%20to%20order%20microgreens";
+  const [currentImage, setCurrentImage] = useState(0);
+  const [isFading, setIsFading] = useState(false);
+
+  const rotateImage = useCallback(() => {
+    setIsFading(true);
+    setTimeout(() => {
+      setCurrentImage((prev) => (prev + 1) % productImages.length);
+      setIsFading(false);
+    }, 400);
+  }, []);
+
+  useEffect(() => {
+    const interval = setInterval(rotateImage, 3500);
+    return () => clearInterval(interval);
+  }, [rotateImage]);
 
   return (
     <div className="min-h-screen">
@@ -25,9 +54,38 @@ const BuyMicrogreens = () => {
 
           {/* Product Section */}
           <div className="grid md:grid-cols-2 gap-8 lg:gap-14">
-            {/* Product Image */}
-            <div className="rounded-2xl overflow-hidden bg-secondary/20 border border-border">
-              <img src={microgreensProduct} alt="Fresh Microgreens" className="w-full h-full object-cover aspect-square" />
+            {/* Auto-rotating Product Image */}
+            <div className="rounded-2xl overflow-hidden bg-secondary/20 border border-border relative">
+              <img
+                src={productImages[currentImage].src}
+                alt={productImages[currentImage].label}
+                className={`w-full h-full object-cover aspect-square transition-opacity duration-400 ${isFading ? "opacity-0" : "opacity-100"}`}
+              />
+              {/* Dot indicators */}
+              <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+                {productImages.map((_, idx) => (
+                  <button
+                    key={idx}
+                    onClick={() => {
+                      setIsFading(true);
+                      setTimeout(() => {
+                        setCurrentImage(idx);
+                        setIsFading(false);
+                      }, 300);
+                    }}
+                    className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
+                      idx === currentImage
+                        ? "bg-primary scale-125"
+                        : "bg-white/70 hover:bg-white"
+                    }`}
+                    aria-label={`View ${productImages[idx].label}`}
+                  />
+                ))}
+              </div>
+              {/* Image label */}
+              <div className="absolute top-4 left-4 bg-background/80 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold text-primary">
+                {productImages[currentImage].label}
+              </div>
             </div>
 
             {/* Product Info */}
