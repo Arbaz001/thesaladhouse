@@ -37,7 +37,7 @@ const BuyAvocado = () => {
 
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                 Premium, hand-picked Hass avocados — creamy, rich, and perfectly ripe. Sourced directly and delivered
-                fresh to your doorstep. Ideal for guacamole, salads, toast, smoothies, and more. Order As Per Actual.
+                fresh to your doorstep. Ideal for guacamole, salads, toast, smoothies, and more.
               </p>
 
               <div className="flex items-baseline gap-3 mb-8">
@@ -53,9 +53,7 @@ const BuyAvocado = () => {
                 </Button>
               </a>
 
-              <p className="text-xs text-muted-foreground mt-3">
-                We'll confirm your order and arrange delivery via WhatsApp.
-              </p>
+              <p className="text-xs text-muted-foreground mt-3">Shipping as per actual.</p>
             </div>
           </div>
 
