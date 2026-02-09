@@ -80,9 +80,9 @@ const BuyMicrogreens = () => {
                 <Leaf className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-1">100% Organic</h3>
+                <h3 className="font-semibold text-foreground mb-1">Non-GMO & Clean-Grown</h3>
                 <p className="text-sm text-muted-foreground">
-                  Grown without pesticides or chemicals. Pure, clean greens.
+                  Grown in a controlled, chemical-free environment for purity and flavor.
                 </p>
               </div>
             </div>
