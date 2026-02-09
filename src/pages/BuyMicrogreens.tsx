@@ -4,11 +4,7 @@ import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-import microgreensAmaranthus from "@/assets/microgreens-amaranthus.jpg";
-import microgreensBokchoy from "@/assets/microgreens-bokchoy.jpg";
-import microgreensBroccoli from "@/assets/microgreens-broccoli-variety.jpg";
-import microgreensWhiteradish from "@/assets/microgreens-whiteradish.jpg";
-import microgreensMillet from "@/assets/microgreens-millet.jpg";
+import microgreensStacked from "@/assets/microgreens-stacked.jpg";
 
 const BuyMicrogreens = () => {
   const whatsappLink = "https://wa.me/919910074374?text=Hi%2C%20I%27d%20like%20to%20order%20microgreens";
@@ -30,41 +26,24 @@ const BuyMicrogreens = () => {
 
           {/* Product Section */}
           <div className="grid md:grid-cols-2 gap-8 lg:gap-14">
-            {/* Product Images Grid */}
-            <div className="grid grid-cols-2 gap-3 sm:gap-4">
-              {/* Large featured image */}
-              <div className="col-span-2 rounded-2xl overflow-hidden bg-secondary/20 border border-border">
-                <div className="relative">
-                  <img
-                    src={microgreensAmaranthus}
-                    alt="Amaranthus Microgreens"
-                    className="w-full aspect-[2/1] object-cover"
-                  />
-                  <span className="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-foreground text-xs font-semibold px-3 py-1.5 rounded-full shadow-sm">
-                    Amaranthus
+            {/* Single Stacked Product Image with Labels */}
+            <div className="relative rounded-2xl overflow-hidden bg-white border border-border">
+              <img
+                src={microgreensStacked}
+                alt="Fresh Microgreens Pack of 5 - Amaranthus, Bok Choy, Broccoli, White Radish, Millet"
+                className="w-full h-full object-contain"
+              />
+              {/* Variety labels overlay */}
+              <div className="absolute right-3 sm:right-5 top-0 bottom-0 flex flex-col justify-around py-[4%] pointer-events-none">
+                {["Amaranthus", "Bok Choy", "Broccoli", "White Radish", "Millet"].map((name) => (
+                  <span
+                    key={name}
+                    className="bg-white/90 backdrop-blur-sm text-foreground text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full shadow-sm"
+                  >
+                    {name}
                   </span>
-                </div>
+                ))}
               </div>
-              {/* 4 smaller images */}
-              {[
-                { src: microgreensBokchoy, name: "Bok Choy" },
-                { src: microgreensBroccoli, name: "Broccoli" },
-                { src: microgreensWhiteradish, name: "White Radish" },
-                { src: microgreensMillet, name: "Millet" },
-              ].map((item) => (
-                <div key={item.name} className="rounded-xl overflow-hidden bg-secondary/20 border border-border">
-                  <div className="relative">
-                    <img
-                      src={item.src}
-                      alt={`${item.name} Microgreens`}
-                      className="w-full aspect-square object-cover"
-                    />
-                    <span className="absolute bottom-2 left-2 bg-white/90 backdrop-blur-sm text-foreground text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full shadow-sm">
-                      {item.name}
-                    </span>
-                  </div>
-                </div>
-              ))}
             </div>
 
             {/* Product Info */}
