@@ -30,7 +30,7 @@ const BuyMicrogreens = () => {
               <img
                 src={microgreensProduct}
                 alt="Fresh Microgreens"
-                className="w-full h-70 object-cover aspect-square"
+                className="w-full h-full object-cover aspect-square"
               />
             </div>
 
