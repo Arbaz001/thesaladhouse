@@ -31,7 +31,7 @@ const BuyMicrogreens = () => {
               <img
                 src={microgreensStacked}
                 alt="Fresh Microgreens Pack of 5"
-                className="w-full h-auto max-h-[280px] sm:max-h-[350px] lg:max-h-[420px] object-contain mx-auto scale-[1.3]"
+                className="w-full h-auto max-h-[400px] sm:max-h-[500px] lg:max-h-[600px] object-contain mx-auto"
               />
             </div>
 
