@@ -52,15 +52,27 @@ const Header = () => {
             >
               🥑 Buy Avocado
             </Link>
+            <Link
+              to="/buy-microgreens"
+              className="px-5 py-2 text-sm font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm"
+            >
+              🌱 Buy Microgreens
+            </Link>
           </nav>
 
           {/* Mobile: Buy Avocado + Menu Button */}
           <div className="md:hidden flex items-center gap-2">
             <Link
               to="/buy-avocado"
-              className="px-4 py-2 text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm"
+              className="px-3 py-2 text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm"
             >
-              🥑 Buy Avocado
+              🥑 Avocado
+            </Link>
+            <Link
+              to="/buy-microgreens"
+              className="px-3 py-2 text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm"
+            >
+              🌱 Microgreens
             </Link>
             <button
               className="text-gray-800 hover:text-primary transition-colors p-2 hover:bg-gray-100 rounded-full"
