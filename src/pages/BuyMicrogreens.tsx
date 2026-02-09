@@ -27,8 +27,8 @@ const BuyMicrogreens = () => {
           {/* Product Section */}
           <div className="grid md:grid-cols-2 gap-8 lg:gap-14">
             {/* Single Stacked Product Image with Labels */}
-            <div className="relative rounded-2xl overflow-hidden bg-white border border-border flex items-end">
-              <img src={microgreensStacked} alt="Fresh Microgreens Pack of 5" className="w-full object-contain" />
+            <div className="relative rounded-2xl overflow-hidden bg-white border border-border">
+              <img src={microgreensStacked} alt="Fresh Microgreens Pack of 5" className="w-full object-contain max-h-[400px] mx-auto" />
             </div>
 
             {/* Product Info */}
