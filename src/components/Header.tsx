@@ -74,14 +74,14 @@ const Header = () => {
               to="/buy-avocado"
               className="px-2.5 sm:px-3 py-1.5 sm:py-2 text-[10px] sm:text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm flex items-center gap-1"
             >
-              🥑 <span className="hidden xs:inline">Buy </span>Avocado
+              🥑 Buy Avocado
             </Link>
             <Link
               to="/buy-microgreens"
               className="px-2.5 sm:px-3 py-1.5 sm:py-2 text-[10px] sm:text-xs font-bold bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-200 shadow-sm flex items-center gap-1"
             >
               <Sprout className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
-              <span className="hidden xs:inline">Buy </span>Microgreens
+              Buy Microgreens
             </Link>
             <button
               className="text-foreground hover:text-primary transition-colors p-2 hover:bg-secondary rounded-full"
